@@ -55,3 +55,28 @@ msgstr "Ширина штрихкоду"
 #: model_terms:ir.ui.view,arch_db:account_asset_number.report_simple_asset_number
 msgid "QRcode"
 msgstr "QR-код"
+
+#. module: account_asset_number
+#: model:ir.actions.report,print_report_name:account_asset_number.report_account_asset_number
+msgid "'Asset Number - %s' % (object.name)"
+msgstr "'Номер активу - %s' % (object.name)"
+
+#. module: account_asset_number
+#: model_terms:ir.ui.view,arch_db:account_asset_number.report_simple_asset_number
+msgid "<span class=\"text-muted\">No number available</span>"
+msgstr "<span class=\"text-muted\">Номер недоступний</span>"
+
+#. module: account_asset_number
+#: model:ir.actions.report,name:account_asset_number.report_account_asset_number
+msgid "Asset Number (PDF)"
+msgstr "Номер активу (PDF)"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__sequence_id
+msgid "Asset Number Sequence"
+msgstr "Послідовність номерів активів"
+
+#. module: account_asset_number
+#: model_terms:ir.ui.view,arch_db:account_asset_number.account_asset_profile_view_form
+msgid "QR/Barcode Configuration"
+msgstr "Конфігурація QR/штрихкоду"

@@ -22,3 +22,8 @@ msgstr "Рахунок активу"
 #: model:ir.model.fields,field_description:account_asset_force_account.field_account_asset__account_depreciation_id
 msgid "Depreciation Account"
 msgstr "Рахунок амортизації"
+
+#. module: account_asset_force_account
+#: model:ir.model.fields,field_description:account_asset_force_account.field_account_asset__account_expense_depreciation_id
+msgid "Depreciation Expense Account"
+msgstr "Рахунок витрат амортизації"

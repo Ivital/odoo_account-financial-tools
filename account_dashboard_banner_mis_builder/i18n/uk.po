@@ -47,3 +47,8 @@ msgstr "KPI звіту MIS"
 #: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_id
 msgid "MIS Report Template"
 msgstr "Шаблон звіту MIS"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_instance_period_id
+msgid "MIS Report Period"
+msgstr "Період звіту MIS"

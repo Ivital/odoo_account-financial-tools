@@ -97,3 +97,43 @@ msgstr "Рахунок списання для закупівель"
 #: model:ir.model.fields,field_description:purchase_unreconciled.field_res_config_settings__purchase_reconcile_journal_id
 msgid "WriteOff Journal for Purchases"
 msgstr "Журнал списання для закупівель"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_purchase_order__amount_unreconciled
+msgid "Amount Unreconciled"
+msgstr "Неузгоджена сума"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_unreconciled_exceeded_wizard
+msgid "Amount Unreconciled exceeded"
+msgstr "Перевищено неузгоджену суму"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_unreconciled_exceeded_wizard
+msgid "Lock and Reconcile"
+msgstr "Заблокувати й узгодити"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.res_config_settings_view_form
+msgid "Purchase Reconciling"
+msgstr "Узгодження закупівлі"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_order_view_search
+msgid "Purchase orders with unreconciled journal items."
+msgstr "Замовлення закупівлі з неузгодженими записами журналу."
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.res_config_settings_view_form
+msgid "Reconcile PO upon locking"
+msgstr "Узгодити замовлення закупівлі при блокуванні"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_unreconciled_exceeded_wizard
+msgid "The order has exceeded its amount unreconciled"
+msgstr "Замовлення перевищило неузгоджену суму"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_order_form
+msgid "Unreconciled Journal Items"
+msgstr "Неузгоджені записи журналу"

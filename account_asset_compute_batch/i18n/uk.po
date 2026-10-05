@@ -295,3 +295,80 @@ msgstr "Відповідальний користувач"
 #: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_asset_compute_batch
+#: model:ir.actions.server,name:account_asset_compute_batch.ir_cron_auto_compute_draft_batch_ir_actions_server
+msgid ""
+"Asset Compute Batch; Post draft batches with auto_compute set to True up to "
+"today"
+msgstr ""
+"Пакетне обчислення активів; проводити чернетки пакетів з auto_compute=True "
+"до поточної дати"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute__delay_compute
+msgid "Delay Compute Asset"
+msgstr "Затримка розрахунку активу"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__depre_amount
+msgid "Depreciation Amount"
+msgstr "Сума амортизації"
+
+#. module: account_asset_compute_batch
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_form
+msgid "Depreciation By Profile"
+msgstr "Амортизація за профілем"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

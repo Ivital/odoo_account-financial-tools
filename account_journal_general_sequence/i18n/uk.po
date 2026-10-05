@@ -80,3 +80,34 @@ msgstr "Дата початку"
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__starting_number
 msgid "Starting Number"
 msgstr "Початковий номер"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_journal__entry_number_sequence_id
+msgid "Account entry number sequence"
+msgstr "Послідовність номерів бухгалтерських записів"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_bank_statement_line__entry_number
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move__entry_number
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_line__entry_number
+msgid "Automatic numbering, based on journal configuration."
+msgstr "Автоматична нумерація на основі конфігурації журналу."
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__available_sequence_ids
+msgid "Available sequences"
+msgstr "Доступні послідовності"
+
+#. module: account_journal_general_sequence
+#: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
+msgid ""
+"If you have already filed and legalized your journals with the competent "
+"authority, this action could change it. Continue?"
+msgstr ""
+"Якщо ви вже подали й легалізували журнали у відповідному органі, ця дія може"
+" їх змінити. Продовжити?"
+
+#. module: account_journal_general_sequence
+#: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
+msgid "Renumber account entry numbers"
+msgstr "Перенумерувати номери бухгалтерських записів"

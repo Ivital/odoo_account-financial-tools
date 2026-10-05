@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_chart_update_code_digits.field_wizard_update_charts_accounts__code_digits
 msgid "Code Digits"
 msgstr "Цифри коду"
+
+#. module: account_chart_update_code_digits
+#: model:ir.model.fields,field_description:account_chart_update_code_digits.field_res_company__account_code_digits
+msgid "Account Code Digits"
+msgstr "Цифри коду рахунку"

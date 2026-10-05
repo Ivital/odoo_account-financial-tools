@@ -68,3 +68,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: account_fiscal_year
+#: model_terms:ir.actions.act_window,help:account_fiscal_year.actions_account_fiscal_year
+msgid "Click here to create a new fiscal year."
+msgstr "Натисніть тут, щоб створити новий фінансовий рік."
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_to
+msgid "End Date of the Fiscal Year"
+msgstr "Дата завершення фінансового року"
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_from
+msgid "Start Date of the Fiscal Year"
+msgstr "Дата початку фінансового року"

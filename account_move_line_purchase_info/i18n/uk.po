@@ -31,3 +31,18 @@ msgstr "Замовлення на закупівлю"
 #: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_account_move_line_filter
 msgid "Purchase Order Line"
 msgstr "Рядок замовлення на закупівлю"
+
+#. module: account_move_line_purchase_info
+#: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order__journal_entries_count
+msgid "Journal Entries Count"
+msgstr "Кількість журнальних проводок"
+
+#. module: account_move_line_purchase_info
+#: model:ir.model.fields,field_description:account_move_line_purchase_info.field_account_move_line__oca_purchase_line_id
+msgid "OCA Purchase Line"
+msgstr "Рядок закупівлі OCA"
+
+#. module: account_move_line_purchase_info
+#: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order_line__stock_invoice_lines
+msgid "Stock Invoice Lines"
+msgstr "Рядки рахунку запасів"

@@ -87,3 +87,28 @@ msgstr "Блокування продажу до дати"
 #: model_terms:ir.ui.view,arch_db:account_lock_to_date.account_update_lock_to_date_form_view
 msgid "Update"
 msgstr "Оновити"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__hard_lock_to_date
+msgid "Hard Lock To Date"
+msgstr "Жорстко заблокувати до дати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__user_fiscalyear_lock_to_date
+msgid "User Fiscalyear Lock To Date"
+msgstr "Дата блокування фінансового року користувача до"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__user_hard_lock_to_date
+msgid "User Hard Lock To Date"
+msgstr "Дата жорсткого блокування користувача до"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__user_purchase_lock_to_date
+msgid "User Purchase Lock To Date"
+msgstr "Дата блокування закупівель користувача до"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__user_sale_lock_to_date
+msgid "User Sale Lock To Date"
+msgstr "Дата блокування продажів користувача до"

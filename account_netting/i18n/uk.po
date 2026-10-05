@@ -84,7 +84,7 @@ msgstr "Журнал"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__move_line_ids
 msgid "Journal Items to Compensate"
-msgstr ""
+msgstr "Записи журналу для компенсації"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_uid
@@ -157,6 +157,9 @@ msgid ""
 "the receivable/payable accounts selected, and reconcile each other, letting "
 "this balance in the partner."
 msgstr ""
+"Ця операція створить бухгалтерську проводку, рядки якої є контрпроводками "
+"вибраних рахунків дебіторської/кредиторської заборгованості, та звірить їх, "
+"залишивши цей баланс у партнера."
 
 #. module: account_netting
 #: model:ir.model.fields.selection,name:account_netting.selection__account_move_make_netting__balance_type__pay

@@ -62,3 +62,23 @@ msgstr "Бухгалтерські проведення"
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Originator Tax"
 msgstr "Податок ініціатора"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "<strong>Accounting Date:</strong>"
+msgstr "<strong>Дата обліку:</strong>"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "<strong>Company :</strong>"
+msgstr "<strong>Компанія:</strong>"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "<strong>Journal</strong>"
+msgstr "<strong>Журнал</strong>"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>Посилання:</strong>"

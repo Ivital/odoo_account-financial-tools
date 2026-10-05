@@ -56,3 +56,40 @@ msgstr "Податки"
 #: model:ir.ui.menu,name:account_usability.menu_account_coa_settings
 msgid "Templates"
 msgstr "Шаблони"
+
+#. module: account_usability
+#: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
+msgid "Anglo-Saxon Accounting"
+msgstr "Англосаксонський облік"
+
+#. module: account_usability
+#: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
+msgid "Fiscal Year Last Day"
+msgstr "Останній день фінансового року"
+
+#. module: account_usability
+#: model:ir.model.fields,field_description:account_usability.field_res_config_settings__fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "Останній день фінансового року"
+
+#. module: account_usability
+#: model:ir.model.fields,field_description:account_usability.field_res_config_settings__fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "Останній місяць фінансового року"
+
+#. module: account_usability
+#: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
+msgid ""
+"Record the cost of a good as an expense when this good is"
+"                         invoiced to a final customer (instead of recording "
+"the cost as soon                         as the product is received in "
+"stock)."
+msgstr ""
+"Визнавати собівартість товару витратами тоді, коли цей товар виставлено в "
+"рахунку кінцевому клієнту (замість визнання собівартості одразу після "
+"надходження товару на склад)."
+
+#. module: account_usability
+#: model:ir.model.fields,field_description:account_usability.field_res_config_settings__anglo_saxon_accounting
+msgid "Use anglo-saxon accounting"
+msgstr "Використовувати англосаксонський облік"

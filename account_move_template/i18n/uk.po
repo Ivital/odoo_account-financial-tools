@@ -48,7 +48,7 @@ msgstr "Рахунок"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__opt_account_id
 msgid "Account if Negative"
-msgstr ""
+msgstr "Рахунок, якщо від’ємне"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__active
@@ -187,7 +187,7 @@ msgstr "Формула"
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
 msgid "Generate Journal Entry"
-msgstr ""
+msgstr "Створити запис журналу"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__id
@@ -339,7 +339,7 @@ msgstr "Податок ініціатора"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__partner_id
 msgid "Override Partner"
-msgstr ""
+msgstr "Перевизначити партнера"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__overwrite
@@ -480,6 +480,8 @@ msgid ""
 "You can refer to other lines using their sequence number e.g. <i>L1</i> for "
 "line with sequence = 1. Examples:"
 msgstr ""
+"Можна посилатися на інші рядки за їх номером послідовності, наприклад "
+"<i>L1</i> для рядка з sequence = 1. Приклади:"
 
 #. module: account_move_template
 #. odoo-python

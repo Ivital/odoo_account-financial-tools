@@ -515,3 +515,293 @@ msgstr "Переглянути переміщення"
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block text-danger\" colspan=\"2\" invisible=\"not is_credit_account_deprecated\">\n"
+"                                  This account in deprecated! The reconciliation will be NOT possible.\n"
+"                            </span>"
+msgstr ""
+"<span class=\"help-block text-danger\" colspan=\"2\" invisible=\"not is_credit_account_deprecated\">\n"
+"                                  Цей рахунок застарілий! Узгодження буде НЕМОЖЛИВИМ.\n"
+"                            </span>"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block text-danger\" colspan=\"2\" invisible=\"not is_debit_account_deprecated\">\n"
+"                                  This account in deprecated! The reconciliation will be NOT possible.\n"
+"                            </span>"
+msgstr ""
+"<span class=\"help-block text-danger\" colspan=\"2\" invisible=\"not is_debit_account_deprecated\">\n"
+"                                  Цей рахунок застарілий! Узгодження буде НЕМОЖЛИВИМ.\n"
+"                            </span>"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      The Balance Sheet account used for the spreading.<br/>This account is the counterpart of the account in the invoice line.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      The Expense account in the vendor bill line.<br/>Usually the same account of the vendor bill line.\n"
+"                                </span>"
+msgstr ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      Балансовий рахунок, що використовується для розподілу.<br/>Цей рахунок є кореспондуючим до рахунку в рядку рахунку.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      Рахунок витрат у рядку рахунку постачальника.<br/>Зазвичай це той самий рахунок, що й у рядку рахунку постачальника.\n"
+"                                </span>"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      The Balance Sheet account.<br/>This is the account in the invoice line.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      The Expense account used for the spreading.<br/>This account is the counterpart of the account of the vendor bill line.\n"
+"                                </span>"
+msgstr ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      Балансовий рахунок.<br/>Це рахунок у рядку рахунку.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      Рахунок витрат, що використовується для розподілу.<br/>Цей рахунок є кореспондуючим до рахунку рядка рахунку постачальника.\n"
+"                                </span>"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      The Revenue account in the invoice line.<br/>Usually the same account of the invoice line.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      The Balance Sheet account used for the spreading.<br/>This account is the counterpart of the account in the vendor bill line.\n"
+"                                </span>"
+msgstr ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      Рахунок доходів у рядку рахунку.<br/>Зазвичай це той самий рахунок, що й у рядку рахунку.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      Балансовий рахунок, що використовується для розподілу.<br/>Цей рахунок є кореспондуючим до рахунку в рядку рахунку постачальника.\n"
+"                                </span>"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      The Revenue account used for the spreading.<br/>This account is the counterpart of the account of the invoice line.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      The Balance Sheet account.<br/>This is the account in the vendor bill line.\n"
+"                                </span>"
+msgstr ""
+"<span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['out_invoice','in_refund']\">\n"
+"                                      Рахунок доходів, що використовується для розподілу.<br/>Цей рахунок є кореспондуючим до рахунку рядка рахунку.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" invisible=\"invoice_type not in ['in_invoice','out_refund']\">\n"
+"                                      Балансовий рахунок.<br/>Це рахунок у рядку рахунку постачальника.\n"
+"                                </span>"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__allow_spread_planning
+msgid "Allow Spread Planning"
+msgstr "Дозволити планування розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__auto_spread
+msgid "Auto assign template on invoice validate"
+msgstr "Автоматично призначати шаблон при перевірці рахунка"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__auto_archive_spread
+msgid "Auto-archive spread"
+msgstr "Автоархівація розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__force_move_auto_post
+msgid "Auto-post spread lines"
+msgstr "Автоматично проводити рядки розподілу"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
+msgid ""
+"Automatically use this spread template on invoice validation for invoice "
+"lines using below product and/or account and/or analytic,"
+msgstr ""
+"Автоматично використовувати цей шаблон розподілу під час підтвердження "
+"рахунку для рядків рахунку з указаним нижче товаром та/або рахунком та/або "
+"аналітикою,"
+
+#. module: account_spread_cost_revenue
+#: model:ir.actions.server,name:account_spread_cost_revenue.ir_cron_spread_create_entries_ir_actions_server
+msgid "Cost/revenue Spread: Create Entries"
+msgstr "Розподіл витрат/доходів: створити проведення"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_company_form
+msgid "Default Spread Accounts"
+msgstr "Рахунки розподілу за замовчуванням"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_company_form
+msgid "Default Spread Journals"
+msgstr "Журнали розподілу за замовчуванням"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_move_line_auto_post
+msgid "Display Button Auto-post lines"
+msgstr "Показувати кнопку автопроведення рядків"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_create_all_moves
+msgid "Display Create All Moves"
+msgstr "Показувати «Створити всі переміщення»"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_recompute_buttons
+msgid "Display Recompute Buttons"
+msgstr "Показувати кнопки перерахунку"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__default_spread_expense_account_id
+msgid "Expense Spread Account"
+msgstr "Рахунок розподілу витрат"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__default_spread_expense_journal_id
+msgid "Expense Spread Journal"
+msgstr "Журнал розподілу витрат"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__exp_rev_account_id
+msgid "Expense/Revenue Account"
+msgstr "Рахунок витрат/доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__exp_rev_account_id
+msgid "Expense/revenue account"
+msgstr "Рахунок витрат/доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__use_invoice_line_account
+msgid "Invoice account as spread account"
+msgstr "Рахунок рахунка як рахунок розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__is_credit_account_deprecated
+msgid "Is Credit Account Deprecated"
+msgstr "Кредитний рахунок застарілий"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__is_debit_account_deprecated
+msgid "Is Debit Account Deprecated"
+msgstr "Дебетовий рахунок застарілий"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_invoice_spread
+msgid "Linked to spread board"
+msgstr "Пов’язано з дошкою розподілу"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_invoice_spread
+msgid "Not linked to any spread board"
+msgstr "Не пов’язано з жодною дошкою розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Recalculate entire spread"
+msgstr "Перерахувати весь розподіл"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Recalculate unposted lines"
+msgstr "Перерахувати непроведені рядки"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__default_spread_revenue_account_id
+msgid "Revenue Spread Account"
+msgstr "Рахунок розподілу доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__default_spread_revenue_journal_id
+msgid "Revenue Spread Journal"
+msgstr "Журнал розподілу доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_action_type
+msgid "Spread Action Type"
+msgstr "Тип дії розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__spread_account_id
+msgid "Spread Balance Sheet Account"
+msgstr "Рахунок балансу розподілу"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Spread Board Name"
+msgstr "Назва дошки розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_invoice_type_domain_ids
+msgid "Spread Invoice Type Domain"
+msgstr "Домен типу рахунка розподілу"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
+msgid "Spread Template Name"
+msgstr "Назва шаблону розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__suitable_journal_ids
+msgid "Suitable Journal"
+msgstr "Відповідний журнал"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "This will delete the move. Are you sure ?"
+msgstr "Це видалить переміщення. Ви впевнені?"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Unlink Invoice Line"
+msgstr "Від’єднати рядок рахунку"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "e.g. One year offices cleaning contract"
+msgstr "наприклад, річний договір на прибирання офісів"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
+msgid "e.g. Template cleaning contract"
+msgstr "наприклад, шаблон договору на прибирання"

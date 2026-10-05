@@ -96,7 +96,7 @@ msgstr ""
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
 msgid "Irreversible Lock Date"
-msgstr ""
+msgstr "Дата незворотного блокування"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__write_uid
@@ -122,7 +122,7 @@ msgstr "Дата блокування закупівель"
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
 msgid "Reversible Lock Dates"
-msgstr ""
+msgstr "Зворотні дати блокування"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__sale_lock_date

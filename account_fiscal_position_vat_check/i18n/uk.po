@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_fiscal_position_vat_check.field_res_users__show_warning_vat_required
 msgid "Show Warning Vat Required"
 msgstr "Показувати попередження про обов'язковий ПДВ"
+
+#. module: account_fiscal_position_vat_check
+#: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
+msgid "<b>Missing VAT number</b>: this partner has the fiscal position"
+msgstr "<b>Відсутній номер ПДВ</b>: цей контрагент має схему оподаткування"
+
+#. module: account_fiscal_position_vat_check
+#: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
+msgid "that require to know the VAT number of the partner."
+msgstr "які вимагають знати номер ПДВ контрагента."
