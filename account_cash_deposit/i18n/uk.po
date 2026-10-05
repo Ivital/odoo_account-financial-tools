@@ -622,3 +622,63 @@ msgstr ""
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__date
 msgid "Used as date for the journal entry."
 msgstr "Використовується як дата журнального запису."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid "%s has already been credited/debited on the bank account."
+msgstr "%s уже було зараховано/списано з банківського рахунку."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/wizards/account_cash_order_reception.py:0
+msgid "Cash reception confirmed on %s."
+msgstr "Отримання готівки підтверджено %s."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/cash_unit.py:0
+msgid "For a coin roll, the coin quantity must be strictly positive."
+msgstr "Для рулону монет кількість монет має бути строго додатною."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid ""
+"On %(deposit)s, the cash journal %(cash_journal)s is not in the selected "
+"currency %(currency)s."
+msgstr ""
+"У %(deposit)s касовий журнал %(cash_journal)s не використовує вибрану валюту"
+" %(currency)s."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid "The %s is not in draft state, so you cannot delete it."
+msgstr "%s не перебуває у стані чернетки, тому його не можна видалити."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/wizards/account_cash_order_reception.py:0
+msgid "The Cash Reception Date (%s) is in the future."
+msgstr "Дата касового надходження (%s) знаходиться в майбутньому."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid "The Inter-Banks Transfer Account is not configured."
+msgstr "Рахунок міжбанківських переказів не налаштовано."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid "The total amount of %s is zero."
+msgstr "Загальна сума %s дорівнює нулю."
+
+#. module: account_cash_deposit
+#. odoo-python
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+msgid ""
+"You must delete cash lines that are linked to a currency other than %s."
+msgstr ""
+"Потрібно видалити касові рядки, пов’язані з валютою, відмінною від %s."

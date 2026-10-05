@@ -59,3 +59,33 @@ msgid "This sequence will be used to generate the journal entry number."
 msgstr ""
 "Ця послідовність використовуватиметься для створення номера бухгалтерської "
 "проводки."
+
+#. module: account_move_name_sequence
+#. odoo-python
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
+msgid ""
+"On journal '%s', the same sequence is used as Entry Sequence and Credit Note"
+" Entry Sequence."
+msgstr ""
+"У журналі «%s» одна й та сама послідовність використовується як "
+"послідовність записів і кредит-нот."
+
+#. module: account_move_name_sequence
+#. odoo-python
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
+msgid ""
+"The company is not set on sequence '%(sequence)s' configured as credit note "
+"sequence of journal '%(journal)s'."
+msgstr ""
+"Компанію не вказано в послідовності «%(sequence)s», налаштованій як "
+"послідовність кредит-нот журналу «%(journal)s»."
+
+#. module: account_move_name_sequence
+#. odoo-python
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
+msgid ""
+"The company is not set on sequence '%(sequence)s' configured on journal "
+"'%(journal)s'."
+msgstr ""
+"Компанію не вказано в послідовності «%(sequence)s», налаштованій у журналі "
+"«%(journal)s»."

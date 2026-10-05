@@ -22,3 +22,14 @@ msgstr "Цифри коду"
 #: model:ir.model.fields,field_description:account_chart_update_code_digits.field_res_company__account_code_digits
 msgid "Account Code Digits"
 msgstr "Цифри коду рахунку"
+
+#. module: account_chart_update_code_digits
+#. odoo-python
+#: code:addons/account_chart_update_code_digits/wizards/wizard_chart_update.py:0
+msgid ""
+"The following accounts could not be automatically updated to %(digits)s "
+"digits because they are not created by the chart of accounts template. "
+"Please update them manually: %(accounts)s"
+msgstr ""
+"Наступні рахунки не вдалося автоматично оновити до %(digits)s цифр, оскільки"
+" вони створені не шаблоном плану рахунків. Оновіть їх вручну: %(accounts)s"

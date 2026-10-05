@@ -128,7 +128,7 @@ msgstr "Депозит чека"
 #. odoo-python
 #: code:addons/account_check_deposit/models/account_check_deposit.py:0
 msgid "Check Deposit %s"
-msgstr ""
+msgstr "Депозит чека %s"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
@@ -191,7 +191,7 @@ msgstr "Боржник"
 #. odoo-python
 #: code:addons/account_check_deposit/models/account_check_deposit.py:0
 msgid "Deposit '%s' has already been credited on the bank account."
-msgstr ""
+msgstr "Депозит «%s» уже зараховано на банківський рахунок."
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__deposit_date
@@ -286,6 +286,9 @@ msgid ""
 "must configure an Outstanding Receipts Account for the payment method "
 "'Manual (inbound)'."
 msgstr ""
+"У налаштуваннях журналу «%s» на вкладці «Вхідні платежі» потрібно "
+"налаштувати рахунок непогашених надходжень для способу оплати «Ручний "
+"(вхідний)»."
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_is_follower
@@ -336,7 +339,7 @@ msgstr "Повідомлення"
 #. odoo-python
 #: code:addons/account_check_deposit/models/account_check_deposit.py:0
 msgid "Missing 'Internal Transfer' account on the company '%s'."
-msgstr ""
+msgstr "У компанії «%s» відсутній рахунок «Внутрішнє переміщення»."
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__my_activity_date_deadline
@@ -434,6 +437,8 @@ msgid ""
 "The check with amount %(amount)s and reference '%(ref)s' is in currency "
 "%(check_currency)s but the deposit is in currency %(deposit_currency)s."
 msgstr ""
+"Чек на суму %(amount)s з посиланням «%(ref)s» має валюту %(check_currency)s,"
+" але депозит — %(deposit_currency)s."
 
 #. module: account_check_deposit
 #. odoo-python
@@ -442,6 +447,8 @@ msgid ""
 "The deposit '%s' is in valid state, so you must cancel it before deleting "
 "it."
 msgstr ""
+"Депозит «%s» має дійсний стан, тому перед видаленням його потрібно "
+"скасувати."
 
 #. module: account_check_deposit
 #. odoo-python
@@ -450,6 +457,8 @@ msgid ""
 "There are no received checks in account '%(account)s' in currency "
 "'%(currency)s' that are not already in this check deposit."
 msgstr ""
+"У рахунку «%(account)s» у валюті «%(currency)s» немає отриманих чеків, які "
+"ще не входять до цього депозиту чеків."
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__total_amount

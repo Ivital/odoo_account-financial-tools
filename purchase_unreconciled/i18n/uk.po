@@ -173,3 +173,37 @@ msgstr "Непідтримуваний оператор пошуку"
 #: model:ir.model.fields,help:purchase_unreconciled.field_res_config_settings__purchase_reconcile_account_id
 msgid "Write-off account to reconcile Unreconciled Purchase Orders"
 msgstr "Рахунок списання для узгодження неузгоджених замовлень на закупівлю"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/models/account_move_line.py:0
+msgid "Automatic writeoff"
+msgstr "Автоматичне списання"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/models/account_move_line.py:0
+msgid "Cannot write-off more than one account"
+msgstr "Не можна списати більше ніж один рахунок"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/wizards/purchase_unreconciled_exceeded.py:0
+msgid "Purchase unreconciled exceeded"
+msgstr "Перевищено незвірені закупівлі"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/models/purchase_order.py:0
+msgid "Reconciled journal items"
+msgstr "Звірені позиції журналу"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/models/purchase_order.py:0
+msgid ""
+"The write-off account and journal for purchases is missing. An accountant "
+"must fill that information"
+msgstr ""
+"Відсутні рахунок і журнал списання для закупівель. Бухгалтер має заповнити "
+"ці дані"

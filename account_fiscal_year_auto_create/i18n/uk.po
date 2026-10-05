@@ -22,3 +22,9 @@ msgstr "Автоматично створювати фінансові роки"
 #: model:ir.model,name:account_fiscal_year_auto_create.model_account_fiscal_year
 msgid "Fiscal Year"
 msgstr "Фінансовий рік"
+
+#. module: account_fiscal_year_auto_create
+#. odoo-python
+#: code:addons/account_fiscal_year_auto_create/models/account_fiscal_year.py:0
+msgid "FY %(date_to)s - %(date_from)s"
+msgstr "ФР %(date_to)s - %(date_from)s"

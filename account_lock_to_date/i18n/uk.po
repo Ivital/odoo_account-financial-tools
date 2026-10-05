@@ -192,3 +192,37 @@ msgstr ""
 #: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py:0
 msgid "You are not allowed to execute this action."
 msgstr "Вам не дозволено виконувати цю дію."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/models/res_company.py:0
+msgid "A new Hard Lock To Date must be prior (or equal) to the previous one."
+msgstr ""
+"Нова жорстка дата блокування «до» має бути раніше або дорівнювати "
+"попередній."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/models/res_company.py:0
+msgid "The Hard Lock Date cannot be removed."
+msgstr "Дату жорсткого блокування не можна видалити."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/models/res_company.py:0
+msgid ""
+"There are still unposted entries in the period to date you want to hard "
+"lock. You should either post or delete them."
+msgstr ""
+"У періоді до дати, яку ви хочете жорстко заблокувати, ще є непроведені "
+"записи. Їх потрібно провести або видалити."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/models/account_move.py:0
+msgid ""
+"You cannot add/modify entries posterior to and inclusive of: "
+"%(lock_date_info)s."
+msgstr ""
+"Не можна додавати/змінювати записи після дати та включно з нею: "
+"%(lock_date_info)s."

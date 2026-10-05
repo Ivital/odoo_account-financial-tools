@@ -165,6 +165,7 @@ msgstr "Вам не дозволено виконувати цю дію."
 #: code:addons/account_lock_date_update/wizards/account_update_lock_date.py:0
 msgid "You tried to set %(field)s to %(date)s, but it is in the future."
 msgstr ""
+"Ви намагалися встановити %(field)s на %(date)s, але ця дата в майбутньому."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

@@ -425,3 +425,27 @@ msgstr ""
 #: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute__use_batch
 msgid "Use batch opton"
 msgstr "Використовувати пакетний параметр"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/models/account_asset_compute_batch.py:0
+msgid "Compute Assets errors"
+msgstr "Помилки розрахунку активів"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/models/account_asset_compute_batch.py:0
+msgid ""
+"Error while processing batches %(batch_ref)s: \n"
+"\n"
+"%(tb)s"
+msgstr ""
+"Помилка під час обробки пакетів %(batch_ref)s:\n"
+"\n"
+"%(tb)s"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/models/account_asset_compute_batch.py:0
+msgid "Only draft batch can be deleted!"
+msgstr "Можна видаляти лише пакети-чернетки!"

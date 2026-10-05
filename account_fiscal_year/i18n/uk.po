@@ -93,3 +93,19 @@ msgstr "Кінцева дата, включена до фінансового р
 #: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_from
 msgid "Start Date, included in the fiscal year."
 msgstr "Дата початку, включена до фінансового року."
+
+#. module: account_fiscal_year
+#. odoo-python
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
+msgid "The ending date must not be prior to the starting date."
+msgstr "Дата завершення не може бути раніше дати початку."
+
+#. module: account_fiscal_year
+#. odoo-python
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
+msgid ""
+"This fiscal year '{fy}' overlaps with '{overlapping_fy}'.\n"
+"Please correct the start and/or end dates of your fiscal years."
+msgstr ""
+"Цей фінансовий рік «{fy}» перекривається з «{overlapping_fy}».\n"
+"Виправте дати початку та/або завершення фінансових років."

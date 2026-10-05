@@ -105,7 +105,7 @@ msgstr "Піктограма типу дії"
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Amount cannot be bigger than debt"
-msgstr ""
+msgstr "Сума не може перевищувати борг"
 
 #. module: account_loan
 #. odoo-python
@@ -113,14 +113,14 @@ msgstr ""
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Amount cannot be less than zero"
-msgstr ""
+msgstr "Сума не може бути меншою за нуль"
 
 #. module: account_loan
 #. odoo-python
 #: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Amount cannot be recomputed if moves or invoices exists already"
-msgstr ""
+msgstr "Суму не можна перерахувати, якщо переміщення або рахунки вже існують"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan_line__interests_amount
@@ -454,6 +454,8 @@ msgid ""
 "It is only possible to change to draft if the status is cancelled or posted "
 "and there are no account moves."
 msgstr ""
+"Перехід до чернетки можливий лише якщо стан «Скасовано» або «Проведено» і "
+"немає бухгалтерських проведень."
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
@@ -726,7 +728,7 @@ msgstr "Лише відсотки"
 #: code:addons/account_loan/wizards/account_loan_post.py:0
 #, python-format
 msgid "Only loans in draft state can be posted"
-msgstr ""
+msgstr "Можна проводити лише позики у стані чернетки"
 
 #. module: account_loan
 #: model:ir.actions.act_window,name:account_loan.account_loan_pay_amount_action
@@ -836,7 +838,7 @@ msgstr "Ставка"
 #: code:addons/account_loan/models/account_loan.py:0
 #, python-format
 msgid "Rate Change"
-msgstr ""
+msgstr "Зміна ставки"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__rate_period
@@ -912,7 +914,7 @@ msgstr "Короткостроковий рахунок"
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Some future invoices already exists"
-msgstr ""
+msgstr "Деякі майбутні рахунки вже існують"
 
 #. module: account_loan
 #. odoo-python
@@ -920,7 +922,7 @@ msgstr ""
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Some future moves already exists"
-msgstr ""
+msgstr "Деякі майбутні проводки вже існують"
 
 #. module: account_loan
 #. odoo-python
@@ -928,14 +930,14 @@ msgstr ""
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Some invoices are not created"
-msgstr ""
+msgstr "Деякі рахунки не створено"
 
 #. module: account_loan
 #. odoo-python
 #: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Some invoices must be created first"
-msgstr ""
+msgstr "Спочатку потрібно створити рахунки"
 
 #. module: account_loan
 #. odoo-python
@@ -943,14 +945,14 @@ msgstr ""
 #: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Some moves are not created"
-msgstr ""
+msgstr "Деякі проводки не створено"
 
 #. module: account_loan
 #. odoo-python
 #: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Some moves must be created first"
-msgstr ""
+msgstr "Спочатку потрібно створити переміщення"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__start_date
@@ -991,7 +993,7 @@ msgstr ""
 #: code:addons/account_loan/wizards/account_loan_post.py:0
 #, python-format
 msgid "The total principal amount does not match the loan amount."
-msgstr ""
+msgstr "Загальна сума основного боргу не відповідає сумі позики."
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan_line__payment_amount
@@ -1061,6 +1063,9 @@ msgid ""
 "update the lines. Please note that if you have manually edited these lines, "
 "those changes will be lost upon computation."
 msgstr ""
+"Ви змінили процентну ставку. Натисніть кнопку «Обчислити елементи», щоб "
+"оновити рядки. Зверніть увагу: якщо ви редагували ці рядки вручну, ці зміни "
+"буде втрачено під час обчислення."
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_line_tree

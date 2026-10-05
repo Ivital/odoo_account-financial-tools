@@ -97,3 +97,25 @@ msgstr ""
 #: code:addons/account_journal_lock_date/wizards/update_journal_lock_dates.py:0
 msgid "You are not allowed to execute this action."
 msgstr "Вам не дозволено виконувати цю дію."
+
+#. module: account_journal_lock_date
+#. odoo-python
+#: code:addons/account_journal_lock_date/models/account_move.py:0
+msgid ""
+"You cannot add/modify entries for the journal '%(journal)s' prior to and "
+"inclusive of the lock date %(journal_date)s"
+msgstr ""
+"Не можна додавати/змінювати записи журналу «%(journal)s» до дати блокування "
+"%(journal_date)s включно"
+
+#. module: account_journal_lock_date
+#. odoo-python
+#: code:addons/account_journal_lock_date/models/account_move.py:0
+msgid ""
+"You cannot add/modify entries for the journal '%(journal)s' prior to and "
+"inclusive of the lock date %(journal_date)s. Check the Journal settings or "
+"ask someone with the 'Adviser' role"
+msgstr ""
+"Не можна додавати/змінювати записи журналу '%(journal)s' до дати блокування "
+"%(journal_date)s включно. Перевірте налаштування журналу або зверніться до "
+"користувача з роллю «Радник»."

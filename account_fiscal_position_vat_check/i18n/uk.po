@@ -28,3 +28,17 @@ msgstr "<b>Відсутній номер ПДВ</b>: цей контрагент
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
 msgid "that require to know the VAT number of the partner."
 msgstr "які вимагають знати номер ПДВ контрагента."
+
+#. module: account_fiscal_position_vat_check
+#. odoo-python
+#: code:addons/account_fiscal_position_vat_check/models/account_move.py:0
+msgid ""
+"You are trying to validate a customer invoice/refund with the fiscal "
+"position '%(fp)s' that require the customer to have a VAT number. But the "
+"partner '%(rp)s' doesn't have a VAT number in Odoo. Please add the VAT "
+"number of this partner in Odoo and try to validate again."
+msgstr ""
+"Ви намагаєтеся підтвердити рахунок/відшкодування клієнта з фіскальною "
+"позицією '%(fp)s', яка вимагає наявності у клієнта номера ПДВ. Але партнер "
+"'%(rp)s' не має номера ПДВ в Odoo. Додайте номер ПДВ цього партнера в Odoo "
+"та повторіть підтвердження."

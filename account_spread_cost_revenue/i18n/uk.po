@@ -903,3 +903,148 @@ msgstr ""
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__days_calc
 msgid "Use number of days to calculate amount"
 msgstr "Використовувати кількість днів для розрахунку суми"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Cannot delete spread(s) that are linked to an invoice line."
+msgstr "Не можна видалити розподіл(и), пов’язані з рядком рахунку."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Cannot delete spread(s): there are posted Journal Entries."
+msgstr "Не можна видалити розподіл(и): існують проведені журнальні записи."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Cannot unlink invoice lines if the invoice is validated"
+msgstr "Не можна видаляти рядки рахунку, якщо рахунок підтверджено"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+msgid "Create from spread template"
+msgstr "Створити з шаблону розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+msgid "Create new spread board"
+msgstr "Створити нову дошку розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
+msgid "Deleted move %s"
+msgstr "Видалено переміщення %s"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+msgid "Link Invoice Line with Spread Board"
+msgstr "Пов’язати рядок рахунку з дошкою розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+msgid "Link to existing spread board"
+msgstr "Пов’язати з існуючою дошкою розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+msgid "New Spread Board"
+msgstr "Нова дошка розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread_template.py:0
+msgid "Please select product and/or account on auto spread options"
+msgstr "Виберіть товар та/або рахунок у параметрах автоматичного розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Spread table '%s' created."
+msgstr "Таблицю розподілу '%s' створено."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "The Invoice Type does not correspond to the Invoice"
+msgstr "Тип рахунку не відповідає рахунку"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "The Journal is not consistent with the account moves."
+msgstr "Журнал не узгоджується з бухгалтерськими проведеннями."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid ""
+"The Spread Template (Purchases) is not compatible with selected invoice type"
+msgstr "Шаблон розподілу (Закупівлі) несумісний із вибраним типом рахунку"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid ""
+"The Spread Template (Sales) is not compatible with selected invoice type"
+msgstr "Шаблон розподілу (Продажі) несумісний із вибраним типом рахунку"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+msgid ""
+"The account of the invoice line does not correspond to the Balance Sheet "
+"(credit account) of the spread"
+msgstr ""
+"Рахунок рядка рахунку не відповідає балансовому рахунку (кредитовому "
+"рахунку) розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+msgid ""
+"The account of the invoice line does not correspond to the Balance Sheet "
+"(debit account) of the spread"
+msgstr ""
+"Рахунок рядка рахунку не відповідає балансовому рахунку (дебетовому рахунку)"
+" розподілу"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
+msgid ""
+"This spread line is already linked to a journal entry! Please post or delete"
+" it."
+msgstr ""
+"Цей рядок розподілу вже пов’язаний із журнальним проведенням! Проведіть або "
+"видаліть його."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+msgid ""
+"Too many auto spread templates (%(len_template)s) matched with the invoice "
+"line, %(line_name)s"
+msgstr ""
+"З рядком рахунку %(line_name)s збіглося забагато шаблонів автоматичного "
+"розподілу (%(len_template)s)"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Unlinked '%(spread_link)s' (invoice line %(inv_line)s)."
+msgstr "Відв’язано «%(spread_link)s» (рядок рахунку %(inv_line)s)."
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Unlinked invoice line '%(spread_line_name)s' (view %(inv_link)s)."
+msgstr ""
+"Відв’язано рядок рахунку «%(spread_line_name)s» (перегляд %(inv_link)s)."

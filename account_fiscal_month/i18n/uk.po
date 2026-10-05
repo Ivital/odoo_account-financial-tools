@@ -22,3 +22,9 @@ msgstr "Є фінансовим місяцем?"
 #: model:date.range.type,name:account_fiscal_month.date_range_fiscal_month
 msgid "Fiscal month"
 msgstr "Фінансовий місяць"
+
+#. module: account_fiscal_month
+#. odoo-python
+#: code:addons/account_fiscal_month/models/date_range_type.py:0
+msgid "You can't delete date range type: Fiscal month"
+msgstr "Не можна видалити тип діапазону дат: фінансовий місяць"

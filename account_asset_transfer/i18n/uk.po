@@ -259,3 +259,33 @@ msgstr "Дата перенесення має бути після журнал�
 msgid ""
 "flag indicating if the asset has been transferred from/to another asset."
 msgstr "прапорець, що вказує, чи було актив передано з/до іншого активу."
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+msgid "Asset Transfer Journal Entry"
+msgstr "Проведення перенесення активу"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/models/account_asset.py:0
+msgid "Only running assets without depreciation (AUC) can transfer"
+msgstr "Переносити можна лише активні активи без амортизації (AUC)"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+msgid "Total values of new assets must equal to source assets"
+msgstr "Загальні значення нових активів мають дорівнювати вихідним активам"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/models/account_asset.py:0
+msgid "Transfer AUC to Asset & Create Transfer Journal Entry"
+msgstr "Перенести AUC до активу та створити журнальне проведення перенесення"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+msgid "Value of new asset must greater than 0.0"
+msgstr "Значення нового активу має бути більшим за 0,0"

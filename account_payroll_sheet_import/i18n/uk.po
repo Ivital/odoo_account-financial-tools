@@ -220,3 +220,55 @@ msgstr "Імпортер Excel розрахунку зарплати"
 #: model:ir.model,name:account_payroll_sheet_import.model_payroll_import_mapping
 msgid "Payroll Import Mapping"
 msgstr "Зіставлення імпорту зарплати"
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid ""
+"Balance mismatch for employee %(employee)s (%(vat)s):\n"
+"  Total Debit: %(debit).2f / Total Credit: %(credit).2f\n"
+"\n"
+"%(lines)s"
+msgstr ""
+"Невідповідність балансу для працівника %(employee)s (%(vat)s):\n"
+"  Загальний дебет: %(debit).2f / Загальний кредит: %(credit).2f\n"
+"\n"
+"%(lines)s"
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid "No valid data found in the file."
+msgstr "У файлі не знайдено дійсних даних."
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid "Only Excel files are supported."
+msgstr "Підтримуються лише файли Excel."
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid "Please upload a file."
+msgstr "Завантажте файл."
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid ""
+"The VAT/ID column '%(column)s' specified in the mapping is missing from the "
+"uploaded file."
+msgstr ""
+"Стовпець ПДВ/ID «%(column)s», указаний у зіставленні, відсутній у "
+"завантаженому файлі."
+
+#. module: account_payroll_sheet_import
+#. odoo-python
+#: code:addons/account_payroll_sheet_import/wizard/payroll_import_wizard.py:0
+msgid ""
+"The following mapped Excel columns are missing from the uploaded file:\n"
+"- %(columns)s"
+msgstr ""
+"У завантаженому файлі відсутні такі зіставлені стовпці Excel:\n"
+"- %(columns)s"

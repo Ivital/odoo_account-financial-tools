@@ -23,7 +23,7 @@ msgstr ""
 #: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "AR/AP netting"
-msgstr ""
+msgstr "Взаємозалік ДЗ/КЗ"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__balance
@@ -104,27 +104,29 @@ msgid ""
 "Line '%(line)s' has account '%(account)s' which is not a payable nor a "
 "receivable account."
 msgstr ""
+"Рядок «%(line)s» використовує рахунок «%(account)s», який не є рахунком "
+"дебіторської чи кредиторської заборгованості."
 
 #. module: account_netting
 #. odoo-python
 #: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' doesn't have a partner."
-msgstr ""
+msgstr "Рядок '%s' не має партнера."
 
 #. module: account_netting
 #. odoo-python
 #: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' is already reconciled."
-msgstr ""
+msgstr "Рядок '%s' уже звірено."
 
 #. module: account_netting
 #. odoo-python
 #: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' is not posted."
-msgstr ""
+msgstr "Рядок '%s' не проведено."
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__partner_id
@@ -140,6 +142,9 @@ msgid ""
 "accounts for the same partner. The selected journal items have the same "
 "account '%s', so you should use the 'Reconcile' function instead."
 msgstr ""
+"Функція 'Компенсувати' призначена для балансування операцій на різних "
+"рахунках для одного партнера. Вибрані елементи журналу мають один і той "
+"самий рахунок '%s', тому замість цього слід використати функцію 'Узгодити'."
 
 #. module: account_netting
 #. odoo-python
@@ -149,6 +154,8 @@ msgid ""
 "The selected journal items have different partners: %s. All the selected "
 "journal items must have the same partner."
 msgstr ""
+"Вибрані елементи журналу мають різних партнерів: %s. Усі вибрані елементи "
+"журналу повинні мати одного партнера."
 
 #. module: account_netting
 #: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
@@ -181,7 +188,7 @@ msgstr "Майстер створення бухгалтерських запи�
 #: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "You should select at least 2 journal items."
-msgstr ""
+msgstr "Потрібно вибрати щонайменше 2 елементи журналу."
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__date

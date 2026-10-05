@@ -46,3 +46,23 @@ msgstr ""
 "якщо вибрати 'Необов'язково', бухгалтер може вільно вказувати партнера в журнальних позиціях із цим рахунком;\n"
 "якщо вибрати 'Завжди', бухгалтер отримає повідомлення про помилку за відсутності партнера;\n"
 "якщо вибрати 'Ніколи', бухгалтер отримає повідомлення про помилку, якщо партнера вказано."
+
+#. module: account_partner_required
+#. odoo-python
+#: code:addons/account_partner_required/models/account_move_line.py:0
+msgid ""
+"Partner policy is set to 'Always' on account '%(account)s' but the partner "
+"is missing on the journal item '%(move_line)s'."
+msgstr ""
+"Для рахунку «%(account)s» політика партнера встановлена на «Завжди», але в "
+"елементі журналу «%(move_line)s» партнер відсутній."
+
+#. module: account_partner_required
+#. odoo-python
+#: code:addons/account_partner_required/models/account_move_line.py:0
+msgid ""
+"Partner policy is set to 'Never' on account '%(account)s' but the journal "
+"item '%(move_line)s' has the partner '%(partner)s'."
+msgstr ""
+"Для рахунку «%(account)s» політика партнера встановлена на «Ніколи», але "
+"елемент журналу «%(move_line)s» має партнера «%(partner)s»."

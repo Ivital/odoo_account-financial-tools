@@ -57,3 +57,47 @@ msgstr "Період звіту MIS"
 #: model:ir.model,name:account_dashboard_banner_mis_builder.model_account_dashboard_banner_cell
 msgid "Accounting Dashboard Banner Cell"
 msgstr "Комірка банера бухгалтерської панелі"
+
+#. module: account_dashboard_banner_mis_builder
+#. odoo-python
+#: code:addons/account_dashboard_banner_mis_builder/models/account_dashboard_banner_cell.py:0
+msgid "Expression: %(kpi_expression)s."
+msgstr "Вираз: %(kpi_expression)s."
+
+#. module: account_dashboard_banner_mis_builder
+#. odoo-python
+#: code:addons/account_dashboard_banner_mis_builder/models/account_dashboard_banner_cell.py:0
+msgid "MIS Builder KPI: %(kpi)s. From %(date_from)s to %(date_to)s."
+msgstr "KPI MIS Builder: %(kpi)s. Від %(date_from)s до %(date_to)s."
+
+#. module: account_dashboard_banner_mis_builder
+#. odoo-python
+#: code:addons/account_dashboard_banner_mis_builder/models/account_dashboard_banner_cell.py:0
+msgid ""
+"On MIS Builder cells, you must configure a MIS Report, a related KPI and a "
+"related Period."
+msgstr ""
+"Для клітинок MIS Builder потрібно налаштувати звіт MIS, пов’язаний KPI та "
+"пов’язаний період."
+
+#. module: account_dashboard_banner_mis_builder
+#. odoo-python
+#: code:addons/account_dashboard_banner_mis_builder/models/account_dashboard_banner_cell.py:0
+msgid ""
+"The MIS Report KPI '%(kpi)s' is attached to MIS Report Template "
+"'%(kpi_report)s' whereas the MIS Report '%(instance)s' is attached to MIS "
+"Report Template '%(instance_report)s'."
+msgstr ""
+"KPI MIS-звіту '%(kpi)s' прив’язано до шаблону MIS-звіту '%(kpi_report)s', "
+"тоді як MIS-звіт '%(instance)s' прив’язано до шаблону MIS-звіту "
+"'%(instance_report)s'."
+
+#. module: account_dashboard_banner_mis_builder
+#. odoo-python
+#: code:addons/account_dashboard_banner_mis_builder/models/account_dashboard_banner_cell.py:0
+msgid ""
+"The MIS Report Period '%(period)s' is attached to MIS Report "
+"'%(period_report)s' and not to the selected MIS Report '%(report)s'."
+msgstr ""
+"Період звіту MIS «%(period)s» прив’язаний до звіту MIS «%(period_report)s», "
+"а не до вибраного звіту MIS «%(report)s»."
