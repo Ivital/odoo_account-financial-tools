@@ -38,3 +38,52 @@ msgstr "Відображувана назва"
 #: model:ir.ui.menu,name:account_lock_to_date.account_update_lock_to_date_menu
 msgid "Update accounting lock to dates"
 msgstr "Оновити блокування обліку до дат"
+
+#. module: account_lock_to_date
+#: model_terms:ir.ui.view,arch_db:account_lock_to_date.account_update_lock_to_date_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_lock_exception__fiscalyear_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__fiscalyear_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__fiscalyear_lock_to_date
+#: model:ir.model.fields.selection,name:account_lock_to_date.selection__account_lock_exception__lock_date_field__fiscalyear_lock_to_date
+msgid "Global Lock To Date"
+msgstr "Глобальне блокування до дати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__hard_lock_to_date
+msgid "Lock To Date"
+msgstr "Заблокувати до дати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_lock_exception__purchase_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__purchase_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__purchase_lock_to_date
+#: model:ir.model.fields.selection,name:account_lock_to_date.selection__account_lock_exception__lock_date_field__purchase_lock_to_date
+msgid "Purchase Lock To Date"
+msgstr "Блокування закупівель до дати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_lock_exception__sale_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__sale_lock_to_date
+#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__sale_lock_to_date
+#: model:ir.model.fields.selection,name:account_lock_to_date.selection__account_lock_exception__lock_date_field__sale_lock_to_date
+msgid "Sales Lock To Date"
+msgstr "Блокування продажу до дати"
+
+#. module: account_lock_to_date
+#: model_terms:ir.ui.view,arch_db:account_lock_to_date.account_update_lock_to_date_form_view
+msgid "Update"
+msgstr "Оновити"

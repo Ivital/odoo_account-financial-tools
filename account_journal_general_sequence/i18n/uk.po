@@ -45,3 +45,38 @@ msgstr "Перенумерувати журнальні записи"
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__sequence_id
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: account_journal_general_sequence
+#: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_journal_general_sequence
+#: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
+msgid "Renumber"
+msgstr "Перенумерувати"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_journal__entry_number_sequence_id_name
+msgid "Sequence Code"
+msgstr "Код послідовності"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__starting_date
+msgid "Starting Date"
+msgstr "Дата початку"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__starting_number
+msgid "Starting Number"
+msgstr "Початковий номер"

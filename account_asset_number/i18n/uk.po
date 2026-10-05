@@ -24,3 +24,34 @@ msgstr "Штрихкод"
 #: code:addons/account_asset_number/report/account_asset_report_xls.py:0
 msgid "Number"
 msgstr "Номер"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset__number
+msgid "Asset Number"
+msgstr "Номер активу"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset__use_sequence
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__use_sequence
+msgid "Auto Asset Number by Sequence"
+msgstr "Автоматичний номер активу за послідовністю"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__barcode_height
+msgid "Barcode Height"
+msgstr "Висота штрихкоду"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__barcode_type
+msgid "Barcode Type"
+msgstr "Тип штрихкоду"
+
+#. module: account_asset_number
+#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__barcode_width
+msgid "Barcode Width"
+msgstr "Ширина штрихкоду"
+
+#. module: account_asset_number
+#: model_terms:ir.ui.view,arch_db:account_asset_number.report_simple_asset_number
+msgid "QRcode"
+msgstr "QR-код"

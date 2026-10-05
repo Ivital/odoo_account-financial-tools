@@ -63,3 +63,105 @@ msgstr "Тип попередження"
 #: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__warn
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__warn_type__above
+msgid "Above Maximum"
+msgstr "Вище максимуму"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__custom_label
+msgid "Custom Label"
+msgstr "Власна етикетка"
+
+#. module: account_dashboard_banner
+#: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_form
+#: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_list
+msgid "Custom Label (optional)"
+msgstr "Власна етикетка (необов'язково)"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__custom_tooltip
+msgid "Custom Tooltip"
+msgstr "Користувацька підказка"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__customer_debt
+msgid "Customer Debt"
+msgstr "Борг клієнта"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__customer_overdue
+msgid "Customer Overdue"
+msgstr "Прострочення клієнта"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__fiscalyear_lock_date
+msgid "Global Lock Date"
+msgstr "Глобальна дата блокування"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__hard_lock_date
+msgid "Hard Lock Date"
+msgstr "Жорстка дата блокування"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__liquidity
+msgid "Liquidity"
+msgstr "Ліквідність"
+
+#. module: account_dashboard_banner
+#. odoo-python
+#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py:0
+msgid "None"
+msgstr "Немає"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__purchase_lock_date
+msgid "Purchase Lock Date"
+msgstr "Дата блокування закупівель"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__sale_lock_date
+msgid "Sales Lock Date"
+msgstr "Дата блокування продажів"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__supplier_debt
+msgid "Supplier Debt"
+msgstr "Борг постачальнику"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__tax_lock_date
+msgid "Tax Return Lock Date"
+msgstr "Дата блокування податкової декларації"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__warn_type__under
+msgid "Under Minimum"
+msgstr "Нижче мінімуму"
+
+#. module: account_dashboard_banner
+#: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_form
+msgid "Warn If"
+msgstr "Попереджати, якщо"
+
+#. module: account_dashboard_banner
+#: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__warn_type_show
+msgid "Warn Type Show"
+msgstr "Тип показу попередження"
+
+#. module: account_dashboard_banner
+#: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_form
+msgid "days"
+msgstr "дні"

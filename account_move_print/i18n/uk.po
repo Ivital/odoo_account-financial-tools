@@ -42,3 +42,23 @@ msgstr "Партнер"
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Taxes"
 msgstr "Податки"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "<strong>Partner</strong>"
+msgstr "<strong>Контрагент</strong>"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "Amount in Currency"
+msgstr "Сума у валюті"
+
+#. module: account_move_print
+#: model:ir.actions.report,name:account_move_print.action_report_journal_entries
+msgid "Journal Entries"
+msgstr "Бухгалтерські проведення"
+
+#. module: account_move_print
+#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
+msgid "Originator Tax"
+msgstr "Податок ініціатора"

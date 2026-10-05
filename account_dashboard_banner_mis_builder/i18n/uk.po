@@ -27,3 +27,23 @@ msgstr "Звіт MIS"
 #: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_kpi_type
 msgid "Value type"
 msgstr "Тип значення"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_kpi_num_display_currency
+msgid "Display Currency"
+msgstr "Валюта відображення"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model.fields.selection,name:account_dashboard_banner_mis_builder.selection__account_dashboard_banner_cell__cell_type__mis_builder
+msgid "MIS Builder KPI"
+msgstr "KPI MIS Builder"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_kpi_id
+msgid "MIS Report KPI"
+msgstr "KPI звіту MIS"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_id
+msgid "MIS Report Template"
+msgstr "Шаблон звіту MIS"

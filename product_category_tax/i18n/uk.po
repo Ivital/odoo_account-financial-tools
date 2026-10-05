@@ -22,3 +22,24 @@ msgstr "Податки"
 #: model:ir.model.fields,field_description:product_category_tax.field_product_category__supplier_taxes_id
 msgid "Vendor Taxes"
 msgstr "Податки постачальника"
+
+#. module: product_category_tax
+#: model_terms:ir.ui.view,arch_db:product_category_tax.product_category_form_view
+msgid "-> Apply to Products"
+msgstr "-> Застосувати до товарів"
+
+#. module: product_category_tax
+#: model:ir.model.fields,field_description:product_category_tax.field_product_category__taxes_id
+msgid "Customer Taxes"
+msgstr "Податки клієнта"
+
+#. module: product_category_tax
+#: model:ir.model.fields,field_description:product_category_tax.field_product_product__taxes_updeatable_from_category
+#: model:ir.model.fields,field_description:product_category_tax.field_product_template__taxes_updeatable_from_category
+msgid "Taxes Updeatable From Category"
+msgstr "Податки можна оновлювати з категорії"
+
+#. module: product_category_tax
+#: model_terms:ir.ui.view,arch_db:product_category_tax.product_category_form_view
+msgid "This will apply to all products in the category"
+msgstr "Це буде застосовано до всіх товарів у категорії"

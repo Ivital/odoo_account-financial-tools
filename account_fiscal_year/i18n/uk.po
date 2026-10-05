@@ -53,3 +53,18 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__date_from
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: account_fiscal_year
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year.account_fiscal_year_form_view
+msgid "Fiscal Year 2020"
+msgstr "Фінансовий рік 2020"
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

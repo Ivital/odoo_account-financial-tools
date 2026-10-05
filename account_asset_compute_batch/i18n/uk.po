@@ -128,3 +128,170 @@ msgstr "Стан"
 #: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_list
 msgid "Total"
 msgstr "Разом"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/wizard/account_asset_compute.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.search_account_asset_compute_batch_filter
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_form
+msgid "Asset Compute Batch"
+msgstr "Пакетний розрахунок активів"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch_profile_report__profile_id
+msgid "Asset Profile"
+msgstr "Профіль активу"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__auto_compute
+msgid "Auto Compute"
+msgstr "Автоматично обчислювати"
+
+#. module: account_asset_compute_batch
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.search_account_asset_compute_batch_filter
+msgid "Batch Number"
+msgstr "Номер партії"
+
+#. module: account_asset_compute_batch
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_form
+msgid "Compute"
+msgstr "Обчислити"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch_profile_report__compute_batch_id
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_move_line__compute_batch_id
+msgid "Compute Batch"
+msgstr "Пакетний розрахунок"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields.selection,name:account_asset_compute_batch.selection__account_asset_compute_batch__state__computed
+msgid "Computed"
+msgstr "Обчислено"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute__use_batch
+msgid "Create Batch"
+msgstr "Створити партію"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__delay_post
+msgid "Delay Posting"
+msgstr "Відкладене проведення"
+
+#. module: account_asset_compute_batch
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_form
+msgid "Depreciations"
+msgstr "Амортизації"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields.selection,name:account_asset_compute_batch.selection__account_asset_compute_batch__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__note
+msgid "Exception Error"
+msgstr "Помилка винятку"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/models/account_asset_compute_batch.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset_compute_batch.view_account_asset_compute_batch_form
+msgid "Journal Entries"
+msgstr "Бухгалтерські проведення"
+
+#. module: account_asset_compute_batch
+#. odoo-python
+#: code:addons/account_asset_compute_batch/models/account_asset_compute_batch.py:0
+msgid "Journal Items"
+msgstr "Проведення журналу"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__profile_report
+msgid "Profile Report"
+msgstr "Звіт профілювання"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,field_description:account_asset_compute_batch.field_account_asset_compute_batch__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

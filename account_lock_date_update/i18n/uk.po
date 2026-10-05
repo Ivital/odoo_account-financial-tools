@@ -46,12 +46,12 @@ msgstr "Назва для відображення"
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__fiscalyear_lock_date
 msgid "Global Lock Date"
-msgstr ""
+msgstr "Глобальна дата блокування"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__hard_lock_date
 msgid "Hard Lock Date"
-msgstr ""
+msgstr "Жорстка дата блокування"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__id
@@ -117,7 +117,7 @@ msgstr "Дати блокування"
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__purchase_lock_date
 msgid "Purchase Lock Date"
-msgstr ""
+msgstr "Дата блокування закупівель"
 
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
@@ -127,17 +127,17 @@ msgstr ""
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__sale_lock_date
 msgid "Sale Lock Date"
-msgstr ""
+msgstr "Дата блокування продажів"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr ""
+msgstr "Дата блокування податкової декларації"
 
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
 msgid "Update"
-msgstr ""
+msgstr "Оновити"
 
 #. module: account_lock_date_update
 #: model:ir.model,name:account_lock_date_update.model_account_update_lock_date

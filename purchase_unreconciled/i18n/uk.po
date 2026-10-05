@@ -48,3 +48,52 @@ msgstr "Звірка"
 #: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_order_view_search
 msgid "Unreconciled"
 msgstr "Не звірено"
+
+#. module: purchase_unreconciled
+#: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_unreconciled_exceeded_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_purchase_unreconciled_exceeded_wiz__continue_method
+msgid "Continue Method"
+msgstr "Метод продовження"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_purchase_unreconciled_exceeded_wiz__exception_msg
+msgid "Exception Msg"
+msgstr "Повідомлення винятку"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_purchase_unreconciled_exceeded_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_purchase_unreconciled_exceeded_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_company__purchase_lock_auto_reconcile
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_config_settings__purchase_lock_auto_reconcile
+msgid "Purchase Lock Auto Reconcile"
+msgstr "Автозвірення блокування закупівель"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_company__purchase_reconcile_tolerance
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_config_settings__purchase_reconcile_tolerance
+msgid "Purchase Reconcile Tolerance (%)"
+msgstr "Допуск звірення закупівель (%)"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_company__purchase_reconcile_account_id
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_config_settings__purchase_reconcile_account_id
+msgid "Write-Off Account On Purchases"
+msgstr "Рахунок списання для закупівель"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_company__purchase_reconcile_journal_id
+#: model:ir.model.fields,field_description:purchase_unreconciled.field_res_config_settings__purchase_reconcile_journal_id
+msgid "WriteOff Journal for Purchases"
+msgstr "Журнал списання для закупівель"

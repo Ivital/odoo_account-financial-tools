@@ -120,3 +120,102 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__price_unit
 msgid "Unit Price"
 msgstr "Ціна за одиницю"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_distribution
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_precision
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Asset From"
+msgstr "Актив від"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__asset_profile_id
+msgid "Asset Profile"
+msgstr "Профіль активу"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Asset To"
+msgstr "Актив до"
+
+#. module: account_asset_transfer
+#: model:ir.model,name:account_asset_transfer.model_account_asset_profile
+msgid "Asset profile"
+msgstr "Профіль активу"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset__can_transfer
+msgid "Can Transfer"
+msgstr "Можна передати"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__distribution_analytic_account_ids
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Expand Asset"
+msgstr "Розгорнути актив"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__from_asset_ids
+msgid "From Asset(s)"
+msgstr "З активу(ів)"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_uid
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_date
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "To New Asset"
+msgstr "До нового активу"
+
+#. module: account_asset_transfer
+#: model:ir.actions.act_window,name:account_asset_transfer.action_account_asset_transfer
+#: model:ir.actions.server,name:account_asset_transfer.action_asset_transfer_from_list
+#: model:ir.model,name:account_asset_transfer.model_account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Transfer Asset"
+msgstr "Передати актив"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__date_transfer
+msgid "Transfer Date"
+msgstr "Дата переміщення"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_profile__transfer_journal_id
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__transfer_journal_id
+msgid "Transfer Journal"
+msgstr "Журнал переміщення"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_search
+msgid "Transferable"
+msgstr "Передаваний"

@@ -64,13 +64,13 @@ msgstr "Сума"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_distribution
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_distribution
 msgid "Analytic Distribution"
-msgstr ""
+msgstr "Аналітичний розподіл"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_precision
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_precision
 msgid "Analytic Precision"
-msgstr ""
+msgstr "Точність аналітики"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -95,12 +95,12 @@ msgstr "Компанія"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__company_currency_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__company_currency_id
 msgid "Company Currency"
-msgstr ""
+msgstr "Валюта компанії"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__type__computed
 msgid "Computed"
-msgstr ""
+msgstr "Обчислено"
 
 #. module: account_move_template
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_run_action
@@ -171,7 +171,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__distribution_analytic_account_ids
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
-msgstr ""
+msgstr "Аналітичний рахунок розподілу"
 
 #. module: account_move_template
 #. odoo-python
@@ -311,7 +311,7 @@ msgstr "Рядки"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__template_id
 msgid "Move Template"
-msgstr ""
+msgstr "Шаблон проведення"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__name
@@ -322,7 +322,7 @@ msgstr "Назва"
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
 msgid "Next"
-msgstr ""
+msgstr "Далі"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__note
@@ -334,7 +334,7 @@ msgstr "Нотатка"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_line_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__tax_line_id
 msgid "Originator Tax"
-msgstr ""
+msgstr "Податок ініціатора"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__partner_id
@@ -362,7 +362,7 @@ msgstr "Партнер"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__payment_term_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__payment_term_id
 msgid "Payment Terms"
-msgstr ""
+msgstr "Умови оплати"
 
 #. module: account_move_template
 #. odoo-python
@@ -379,7 +379,7 @@ msgstr "Посилання"
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__select_template
 msgid "Select Template"
-msgstr ""
+msgstr "Вибрати шаблон"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__sequence
@@ -390,7 +390,7 @@ msgstr "Послідовність"
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__set_lines
 msgid "Set Lines"
-msgstr ""
+msgstr "Задати рядки"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__state
@@ -401,7 +401,7 @@ msgstr "Стан"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_repartition_line_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__tax_repartition_line_id
 msgid "Tax Repartition Line"
-msgstr ""
+msgstr "Рядок розподілу податку"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_ids
@@ -437,7 +437,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__type__input
 msgid "User input"
-msgstr ""
+msgstr "Введення користувача"
 
 #. module: account_move_template
 #. odoo-python

@@ -33,7 +33,7 @@ msgstr "Баланс"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__balance_type
 msgid "Balance Type"
-msgstr ""
+msgstr "Тип балансу"
 
 #. module: account_netting
 #: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
@@ -49,7 +49,7 @@ msgstr "Компанія"
 #: model:ir.actions.act_window,name:account_netting.act_account_move_make_netting
 #: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
 msgid "Compensate"
-msgstr ""
+msgstr "Компенсувати"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__create_uid
@@ -161,12 +161,12 @@ msgstr ""
 #. module: account_netting
 #: model:ir.model.fields.selection,name:account_netting.selection__account_move_make_netting__balance_type__pay
 msgid "To pay"
-msgstr ""
+msgstr "До сплати"
 
 #. module: account_netting
 #: model:ir.model.fields.selection,name:account_netting.selection__account_move_make_netting__balance_type__receive
 msgid "To receive"
-msgstr ""
+msgstr "До отримання"
 
 #. module: account_netting
 #: model:ir.model,name:account_netting.model_account_move_make_netting

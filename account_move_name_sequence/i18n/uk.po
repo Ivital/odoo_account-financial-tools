@@ -25,3 +25,8 @@ msgstr "Відшкодування"
 #: model:ir.model,name:account_move_name_sequence.model_ir_sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: account_move_name_sequence
+#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__sequence_id
+msgid "Entry Sequence"
+msgstr "Послідовність проведень"
