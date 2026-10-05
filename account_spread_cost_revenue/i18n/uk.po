@@ -805,3 +805,101 @@ msgstr "наприклад, річний договір на прибиранн�
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
 msgid "e.g. Template cleaning contract"
 msgstr "наприклад, шаблон договору на прибирання"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model,name:account_spread_cost_revenue.model_account_spread_invoice_line_link_wizard
+msgid "Account Spread Invoice Line Link Wizard"
+msgstr "Майстер зв’язку рядка рахунка з розподілом"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model,name:account_spread_cost_revenue.model_account_spread_line
+msgid "Account Spread Lines"
+msgstr "Рядки розподілу рахунку"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model,name:account_spread_cost_revenue.model_account_spread_template
+msgid "Account Spread Template"
+msgstr "Шаблон розподілу рахунку"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model,name:account_spread_cost_revenue.model_account_spread_template_auto
+msgid "Auto create spread, based on product/account/analytic"
+msgstr "Автоматично створювати розподіл на основі товару/рахунку/аналітики"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__period_number
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__period_number
+msgid "Define the number of spread lines"
+msgstr "Визначте кількість рядків розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_res_company__allow_spread_planning
+msgid ""
+"Disable this option if you do not want to allow the spreading before the "
+"invoice is validated."
+msgstr ""
+"Вимкніть цей параметр, якщо не потрібно дозволяти розподіл до підтвердження "
+"рахунка."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_res_company__auto_archive_spread
+msgid ""
+"Enable this option if you want the cron job to automatically archive the "
+"spreads when all lines are posted."
+msgstr ""
+"Увімкніть, якщо потрібно, щоб cron-завдання автоматично архівувало розподіли"
+" після проведення всіх рядків."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_res_company__force_move_auto_post
+msgid ""
+"Enable this option if you want to post automatically the accounting moves of"
+" all the spreads."
+msgstr ""
+"Увімкніть цей параметр, якщо потрібно автоматично проводити бухгалтерські "
+"проводки всіх розподілів."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__auto_spread
+msgid ""
+"If checked, provide option to auto create spread during invoice validation, "
+"based on product/account/analytic in invoice line."
+msgstr ""
+"Якщо позначено, під час підтвердження рахунка доступне авт створення "
+"розподілу на основі товару/рахунка/аналітики рядка рахунка."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__exp_rev_account_id
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__exp_rev_account_id
+msgid "Optional account to overwrite the existing expense/revenue account"
+msgstr ""
+"Необов’язковий рахунок для перевизначення наявного рахунку витрат/доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__period_type
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__period_type
+msgid "Period length for the entries"
+msgstr "Тривалість періоду для записів"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+msgid "Spread Details"
+msgstr "Деталі розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__use_invoice_line_account
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__use_invoice_line_account
+msgid ""
+"Use invoice line's account as Balance sheet / spread account.\n"
+"In this case, user need to select expense/revenue account too."
+msgstr ""
+"Використовувати рахунок рядка рахунка як балансовий рахунок / рахунок розподілу.\n"
+"У цьому випадку користувач також має вибрати рахунок витрат/доходів."
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__days_calc
+#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__days_calc
+msgid "Use number of days to calculate amount"
+msgstr "Використовувати кількість днів для розрахунку суми"

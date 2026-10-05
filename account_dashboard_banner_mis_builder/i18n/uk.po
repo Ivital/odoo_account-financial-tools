@@ -52,3 +52,8 @@ msgstr "Шаблон звіту MIS"
 #: model:ir.model.fields,field_description:account_dashboard_banner_mis_builder.field_account_dashboard_banner_cell__mis_report_instance_period_id
 msgid "MIS Report Period"
 msgstr "Період звіту MIS"
+
+#. module: account_dashboard_banner_mis_builder
+#: model:ir.model,name:account_dashboard_banner_mis_builder.model_account_dashboard_banner_cell
+msgid "Accounting Dashboard Banner Cell"
+msgstr "Комірка банера бухгалтерської панелі"

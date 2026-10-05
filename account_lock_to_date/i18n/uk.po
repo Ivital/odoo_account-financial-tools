@@ -112,3 +112,83 @@ msgstr "Дата блокування закупівель користувач�
 #: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__user_sale_lock_to_date
 msgid "User Sale Lock To Date"
 msgstr "Дата блокування продажів користувача до"
+
+#. module: account_lock_to_date
+#: model:ir.model,name:account_lock_to_date.model_account_update_lock_to_date
+msgid "Account Update Lock_to_date"
+msgstr "Оновлення блокування рахунку до дати"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_update_lock_to_date__hard_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_res_company__hard_lock_to_date
+msgid "Like the \"Global Lock Date\", but no exceptions are possible."
+msgstr "Подібно до «Глобальної дати блокування», але без можливості винятків."
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_update_lock_to_date__fiscalyear_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_res_company__fiscalyear_lock_to_date
+msgid ""
+"No users can edit accounts posterior to this date. Use it for fiscal year "
+"locking for example."
+msgstr ""
+"Жоден користувач не може редагувати рахунки після цієї дати. Використовуйте,"
+" наприклад, для блокування фінансового року."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/models/account_lock_exception.py:0
+msgid "Operation not supported"
+msgstr "Операція не підтримується"
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_update_lock_to_date__purchase_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_res_company__purchase_lock_to_date
+msgid ""
+"Prevents creation and modification of entries in purchase journals posterior"
+" to the defined date inclusive."
+msgstr ""
+"Забороняє створення та зміну проводок у журналах закупівель після вказаної "
+"дати включно."
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_update_lock_to_date__sale_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_res_company__sale_lock_to_date
+msgid ""
+"Prevents creation and modification of entries in sales journals posterior to"
+" the defined date inclusive."
+msgstr ""
+"Забороняє створення та зміну проводок у журналах продажів після вказаної "
+"дати включно."
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_lock_exception__fiscalyear_lock_to_date
+msgid ""
+"The date the Global Lock To Date is set to by this exception. If the lock to"
+" date is not changed it is set to False."
+msgstr ""
+"Дата, на яку цей виняток встановлює глобальне блокування. Якщо дата "
+"блокування не змінена, встановлюється False."
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_lock_exception__purchase_lock_to_date
+msgid ""
+"The date the Purchase Lock To Date is set to by this exception. If the lock "
+"to date is not changed it is set to False."
+msgstr ""
+"Дата, на яку цей виняток встановлює «Блокувати закупівлі до». Якщо дата "
+"блокування не змінена, встановлюється False."
+
+#. module: account_lock_to_date
+#: model:ir.model.fields,help:account_lock_to_date.field_account_lock_exception__sale_lock_to_date
+msgid ""
+"The date the Sale Lock To Date is set to by this exception. If the lock to "
+"date is not changed it is set to False."
+msgstr ""
+"Дата, на яку цей виняток встановлює «Блокувати продажі до». Якщо дата "
+"блокування не змінена, встановлюється False."
+
+#. module: account_lock_to_date
+#. odoo-python
+#: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py:0
+msgid "You are not allowed to execute this action."
+msgstr "Вам не дозволено виконувати цю дію."

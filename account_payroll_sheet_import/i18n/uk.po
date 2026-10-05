@@ -189,3 +189,34 @@ msgstr "Назва стовпця Excel"
 #: model_terms:ir.ui.view,arch_db:account_payroll_sheet_import.view_payroll_mapping_form
 msgid "Payroll Mapping Line"
 msgstr "Рядок зіставлення зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model,name:account_payroll_sheet_import.model_payroll_import_mapping_line
+msgid "Mapping of Excel columns to accounting accounts"
+msgstr "Зіставлення стовпців Excel із бухгалтерськими рахунками"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model,name:account_payroll_sheet_import.model_missing_partner_wizard
+msgid "Missing Employees from Payroll Import"
+msgstr "Відсутні працівники з імпорту зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,help:account_payroll_sheet_import.field_payroll_import_mapping__id_column
+msgid ""
+"Name of the column in the Excel file that contains\n"
+"        VAT/ID/Pasport numbers to map with the contact.\n"
+"        It uses the identification_id or passport_id field of the employee."
+msgstr ""
+"Назва стовпця у файлі Excel, що містить\n"
+"        ПДВ/ID/номери паспортів для зіставлення з контактом.\n"
+"        Використовується поле identification_id або passport_id працівника."
+
+#. module: account_payroll_sheet_import
+#: model:ir.model,name:account_payroll_sheet_import.model_payroll_import_wizard
+msgid "Payroll Excel Importer"
+msgstr "Імпортер Excel розрахунку зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model,name:account_payroll_sheet_import.model_payroll_import_mapping
+msgid "Payroll Import Mapping"
+msgstr "Зіставлення імпорту зарплати"

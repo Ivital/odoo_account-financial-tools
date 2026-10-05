@@ -64,6 +64,8 @@ msgid ""
 "Impossible to edit/create journal entries prior to and inclusive of this "
 "date. Subject to exceptions."
 msgstr ""
+"Неможливо редагувати/створювати журнальні проводки до цієї дати включно. "
+"Можливі винятки."
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__hard_lock_date
@@ -71,6 +73,8 @@ msgid ""
 "Impossible to edit/create journal entries prior to and inclusive of this "
 "date. This lock date is irreversible and does not allow any exception."
 msgstr ""
+"Неможливо редагувати/створювати журнальні записи до цієї дати включно. Ця "
+"дата блокування є незворотною та не допускає жодних винятків."
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__tax_lock_date
@@ -78,6 +82,8 @@ msgid ""
 "Impossible to edit/create journal entries related to a tax prior and "
 "inclusive of this date. Subject to exceptions."
 msgstr ""
+"Неможливо редагувати/створювати журнальні проводки, пов’язані з податком, до"
+" цієї дати включно. Можливі винятки."
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__purchase_lock_date
@@ -85,6 +91,8 @@ msgid ""
 "Impossible to edit/create purchase journal entries prior to and inclusive of"
 " this date. Subject to exceptions."
 msgstr ""
+"Неможливо редагувати/створювати записи журналу закупівель до цієї дати "
+"включно. Можливі винятки."
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__sale_lock_date
@@ -92,6 +100,8 @@ msgid ""
 "Impossible to edit/create sale journal entries prior to and inclusive of "
 "this date. Subject to exceptions."
 msgstr ""
+"Неможливо редагувати/створювати записи журналу продажів до цієї дати "
+"включно. Можливі винятки."
 
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
@@ -142,13 +152,13 @@ msgstr "Оновити"
 #. module: account_lock_date_update
 #: model:ir.model,name:account_lock_date_update.model_account_update_lock_date
 msgid "Wizard to Update Accounting Lock Dates"
-msgstr ""
+msgstr "Майстер оновлення дат блокування обліку"
 
 #. module: account_lock_date_update
 #. odoo-python
 #: code:addons/account_lock_date_update/wizards/account_update_lock_date.py:0
 msgid "You are not allowed to execute this action."
-msgstr ""
+msgstr "Вам не дозволено виконувати цю дію."
 
 #. module: account_lock_date_update
 #. odoo-python

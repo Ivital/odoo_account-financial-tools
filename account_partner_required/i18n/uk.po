@@ -33,3 +33,16 @@ msgstr "Необов'язково"
 #: model_terms:ir.ui.view,arch_db:account_partner_required.view_account_search
 msgid "Partner Policy"
 msgstr "Політика контрагента"
+
+#. module: account_partner_required
+#: model:ir.model.fields,help:account_partner_required.field_account_account__partner_policy
+msgid ""
+"Set the policy for the partner field:\n"
+"if you select 'Optional', the accountant is free to put a partner on journal items with this account ;\n"
+"if you select 'Always', the accountant will get an error message if there is no partner ;\n"
+"if you select 'Never', the accountant will get an error message if a partner is present."
+msgstr ""
+"Установіть політику для поля партнера:\n"
+"якщо вибрати 'Необов'язково', бухгалтер може вільно вказувати партнера в журнальних позиціях із цим рахунком;\n"
+"якщо вибрати 'Завжди', бухгалтер отримає повідомлення про помилку за відсутності партнера;\n"
+"якщо вибрати 'Ніколи', бухгалтер отримає повідомлення про помилку, якщо партнера вказано."

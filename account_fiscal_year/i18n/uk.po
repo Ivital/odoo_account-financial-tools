@@ -83,3 +83,13 @@ msgstr "Дата завершення фінансового року"
 #: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_from
 msgid "Start Date of the Fiscal Year"
 msgstr "Дата початку фінансового року"
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_to
+msgid "Ending Date, included in the fiscal year."
+msgstr "Кінцева дата, включена до фінансового року."
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_from
+msgid "Start Date, included in the fiscal year."
+msgstr "Дата початку, включена до фінансового року."

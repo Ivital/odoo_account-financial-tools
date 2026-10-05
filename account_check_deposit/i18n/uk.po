@@ -53,7 +53,7 @@ msgstr "<b>Загалом:</b>"
 #. module: account_check_deposit
 #: model:ir.model.constraint,message:account_check_deposit.constraint_account_check_deposit_name_company_unique
 msgid "A check deposit with this reference already exists in this company."
-msgstr ""
+msgstr "Депозит чека з таким посиланням уже існує в цій компанії."
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_needaction

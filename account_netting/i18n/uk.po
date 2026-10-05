@@ -174,7 +174,7 @@ msgstr "До отримання"
 #. module: account_netting
 #: model:ir.model,name:account_netting.model_account_move_make_netting
 msgid "Wizard to generate account moves for netting"
-msgstr ""
+msgstr "Майстер створення бухгалтерських записів для взаємозаліку"
 
 #. module: account_netting
 #. odoo-python

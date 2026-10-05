@@ -80,3 +80,24 @@ msgstr "Послідовність номерів активів"
 #: model_terms:ir.ui.view,arch_db:account_asset_number.account_asset_profile_view_form
 msgid "QR/Barcode Configuration"
 msgstr "Конфігурація QR/штрихкоду"
+
+#. module: account_asset_number
+#: model:ir.model,name:account_asset_number.model_report_account_asset_management_asset_report_xls
+msgid "Dynamic XLS asset report generator"
+msgstr "Генератор динамічного XLS-звіту активів"
+
+#. module: account_asset_number
+#: model:ir.model.fields,help:account_asset_number.field_account_asset_profile__barcode_height
+msgid "Height (in px) of the barcode or the QR code"
+msgstr "Висота штрихкоду або QR-коду (у px)"
+
+#. module: account_asset_number
+#: model:ir.model.fields,help:account_asset_number.field_account_asset__use_sequence
+#: model:ir.model.fields,help:account_asset_number.field_account_asset_profile__use_sequence
+msgid "If check, asset number auto run by sequence."
+msgstr "Якщо позначено, номер активу генерується автоматично послідовністю."
+
+#. module: account_asset_number
+#: model:ir.model.fields,help:account_asset_number.field_account_asset_profile__barcode_width
+msgid "Width (in px) of the barcode or the QR code"
+msgstr "Ширина штрихкоду або QR-коду (у px)"

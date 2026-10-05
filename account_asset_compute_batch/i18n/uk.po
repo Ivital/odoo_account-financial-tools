@@ -372,3 +372,56 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__date_end
+msgid "All depreciation lines prior to this date will be computed"
+msgstr "Усі рядки амортизації до цієї дати будуть обчислені"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__auto_compute
+msgid "Auto compute draft batches with 'Date' up to today, by cron job"
+msgstr ""
+"Автоматично обчислювати чернеткові пакети з датою до сьогодні за завданням "
+"cron"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.constraint,message:account_asset_compute_batch.constraint_account_asset_compute_batch_name_uniq
+msgid "Batch name must be unique!"
+msgstr "Назва пакета має бути унікальною!"
+
+#. module: account_asset_compute_batch
+#: model:ir.model,name:account_asset_compute_batch.model_account_asset_compute_batch
+msgid "Compute Depreciation Batch"
+msgstr "Пакетний розрахунок амортизації"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__delay_post
+msgid ""
+"Dalay account posting of newly created journaly entries, by setting "
+"auto_post='at_date', to be posted by cron job"
+msgstr ""
+"Відкласти проведення новостворених журнальних проводок, установивши "
+"auto_post='at_date', щоб їх провело cron-завдання"
+
+#. module: account_asset_compute_batch
+#: model:ir.model,name:account_asset_compute_batch.model_account_asset_compute_batch_profile_report
+msgid "Depreciation Amount by Profile"
+msgstr "Сума амортизації за профілем"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute__batch_name
+msgid "If batch name is specified, computation will be tracked by a batch"
+msgstr "Якщо вказано назву пакета, обчислення відстежуватиметься пакетом"
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute_batch__profile_ids
+msgid "Selected asset to run depreciation. Run all profiles if left blank."
+msgstr ""
+"Вибраний актив для запуску амортизації. Якщо порожньо — виконати всі "
+"профілі."
+
+#. module: account_asset_compute_batch
+#: model:ir.model.fields,help:account_asset_compute_batch.field_account_asset_compute__use_batch
+msgid "Use batch opton"
+msgstr "Використовувати пакетний параметр"

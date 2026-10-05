@@ -32,7 +32,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (копія)"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
@@ -238,7 +238,7 @@ msgstr "Журнал"
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template
 msgid "Journal Entry Template"
-msgstr ""
+msgstr "Шаблон журнального запису"
 
 #. module: account_move_template
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_action
@@ -249,7 +249,7 @@ msgstr "Шаблони журнальних записів"
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line
 msgid "Journal Item Template"
-msgstr ""
+msgstr "Шаблон журнального запису"
 
 #. module: account_move_template
 #. odoo-python
@@ -417,12 +417,12 @@ msgstr "Шаблон"
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_line_sequence_template_uniq
 msgid "The sequence of the line must be unique per template!"
-msgstr ""
+msgstr "Послідовність рядка має бути унікальною в межах шаблону!"
 
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_name_company_unique
 msgid "This name is already used by another template!"
-msgstr ""
+msgstr "Ця назва вже використовується іншим шаблоном!"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__type
@@ -432,7 +432,7 @@ msgstr "Тип"
 #. module: account_move_template
 #: model:ir.model.fields,help:account_move_template.field_account_move_template_line__payment_term_id
 msgid "Used to compute the due date of the journal item."
-msgstr ""
+msgstr "Використовується для розрахунку терміну оплати журнального запису."
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__type__input
@@ -448,7 +448,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,help:account_move_template.field_account_move_template_line__opt_account_id
 msgid "When amount is negative, use this account instead"
-msgstr ""
+msgstr "Якщо сума від’ємна, використовувати натомість цей рахунок"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__wizard_id
@@ -458,12 +458,12 @@ msgstr "Майстер"
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line_run
 msgid "Wizard Lines to generate move from template"
-msgstr ""
+msgstr "Рядки майстра створення переміщення з шаблону"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_run
 msgid "Wizard to generate move from template"
-msgstr ""
+msgstr "Майстер створення переміщення з шаблону"
 
 #. module: account_move_template
 #. odoo-python

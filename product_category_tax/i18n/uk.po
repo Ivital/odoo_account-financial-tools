@@ -43,3 +43,13 @@ msgstr "Податки можна оновлювати з категорії"
 #: model_terms:ir.ui.view,arch_db:product_category_tax.product_category_form_view
 msgid "This will apply to all products in the category"
 msgstr "Це буде застосовано до всіх товарів у категорії"
+
+#. module: product_category_tax
+#: model:ir.model.fields,help:product_category_tax.field_product_category__supplier_taxes_id
+msgid "Default taxes used when buying the product."
+msgstr "Типові податки при закупівлі товару."
+
+#. module: product_category_tax
+#: model:ir.model.fields,help:product_category_tax.field_product_category__taxes_id
+msgid "Default taxes used when selling the product."
+msgstr "Типові податки при продажу товару."

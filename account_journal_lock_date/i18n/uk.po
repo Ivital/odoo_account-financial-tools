@@ -64,3 +64,36 @@ msgstr "Оновити"
 #: model:ir.actions.act_window,name:account_journal_lock_date.update_journal_lock_dates_wizard_action
 msgid "Update journals lock dates"
 msgstr "Оновити дати блокування журналів"
+
+#. module: account_journal_lock_date
+#: model:ir.model,name:account_journal_lock_date.model_update_journal_lock_dates_wizard
+msgid "Mass Update Journal Lock Dates Wizard"
+msgstr "Майстер масового оновлення дат блокування журналів"
+
+#. module: account_journal_lock_date
+#: model:ir.model.fields,help:account_journal_lock_date.field_account_journal__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date for this journal. Use it for fiscal year locking for this journal,"
+" for example."
+msgstr ""
+"Жоден користувач, включно з консультантами, не може редагувати рахунки до "
+"цієї дати включно для цього журналу. Наприклад, використовуйте це для "
+"блокування фінансового року для журналу."
+
+#. module: account_journal_lock_date
+#: model:ir.model.fields,help:account_journal_lock_date.field_account_journal__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date for this journal. Use it for period locking inside an open "
+"fiscal year for this journal, for example."
+msgstr ""
+"Лише користувачі з роллю «Консультант» можуть редагувати рахунки до цієї "
+"дати включно для цього журналу. Наприклад, використовуйте це для блокування "
+"періоду всередині відкритого фінансового року."
+
+#. module: account_journal_lock_date
+#. odoo-python
+#: code:addons/account_journal_lock_date/wizards/update_journal_lock_dates.py:0
+msgid "You are not allowed to execute this action."
+msgstr "Вам не дозволено виконувати цю дію."

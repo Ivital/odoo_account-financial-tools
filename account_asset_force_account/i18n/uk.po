@@ -27,3 +27,18 @@ msgstr "Рахунок амортизації"
 #: model:ir.model.fields,field_description:account_asset_force_account.field_account_asset__account_expense_depreciation_id
 msgid "Depreciation Expense Account"
 msgstr "Рахунок витрат амортизації"
+
+#. module: account_asset_force_account
+#: model:ir.model.fields,help:account_asset_force_account.field_account_asset__account_depreciation_id
+msgid "The account used to record depreciation for the asset."
+msgstr "Рахунок, який використовується для обліку амортизації активу."
+
+#. module: account_asset_force_account
+#: model:ir.model.fields,help:account_asset_force_account.field_account_asset__account_expense_depreciation_id
+msgid "The account used to record the expense of the depreciation."
+msgstr "Рахунок, який використовується для обліку витрат на амортизацію."
+
+#. module: account_asset_force_account
+#: model:ir.model.fields,help:account_asset_force_account.field_account_asset__account_asset_id
+msgid "The account used to record the value of the asset."
+msgstr "Рахунок для обліку вартості активу."

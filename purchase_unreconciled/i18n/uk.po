@@ -137,3 +137,39 @@ msgstr "Замовлення перевищило неузгоджену сум�
 #: model_terms:ir.ui.view,arch_db:purchase_unreconciled.purchase_order_form
 msgid "Unreconciled Journal Items"
 msgstr "Неузгоджені записи журналу"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,help:purchase_unreconciled.field_purchase_order__unreconciled
+msgid ""
+"Indicates that a Purchase Order has related Journal items not reconciled.\n"
+"Note that if it is false it can be either that everything is reconciled or that the related accounts do not allow reconciliation"
+msgstr ""
+"Вказує, що із замовленням на закупівлю пов'язані непогоджені журнальні позиції.\n"
+"Якщо значення false, це може означати або що все погоджено, або що пов'язані рахунки не дозволяють погодження."
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,help:purchase_unreconciled.field_res_company__purchase_reconcile_tolerance
+#: model:ir.model.fields,help:purchase_unreconciled.field_res_config_settings__purchase_reconcile_tolerance
+msgid ""
+"Percentage of tolerance of residual amount vs total amount of the Purchase "
+"Order. Leave zero to accept all discrepancies"
+msgstr ""
+"Відсоток допустимого відхилення залишкової суми від загальної суми "
+"замовлення на закупівлю. Залиште нуль, щоб приймати всі розбіжності"
+
+#. module: purchase_unreconciled
+#: model:ir.model,name:purchase_unreconciled.model_purchase_unreconciled_exceeded_wiz
+msgid "Purchase Unreconciled Exceeded Wizard"
+msgstr "Майстер перевищення незвірених закупівель"
+
+#. module: purchase_unreconciled
+#. odoo-python
+#: code:addons/purchase_unreconciled/models/purchase_order.py:0
+msgid "Unsupported search operator"
+msgstr "Непідтримуваний оператор пошуку"
+
+#. module: purchase_unreconciled
+#: model:ir.model.fields,help:purchase_unreconciled.field_res_company__purchase_reconcile_account_id
+#: model:ir.model.fields,help:purchase_unreconciled.field_res_config_settings__purchase_reconcile_account_id
+msgid "Write-off account to reconcile Unreconciled Purchase Orders"
+msgstr "Рахунок списання для узгодження неузгоджених замовлень на закупівлю"

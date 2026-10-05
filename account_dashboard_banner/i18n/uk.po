@@ -210,3 +210,10 @@ msgstr "Попереджати, якщо дата блокування стар�
 #: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__income_year
 msgid "Year-to-date Income"
 msgstr "Дохід від початку року"
+
+#. module: account_dashboard_banner
+#: model:ir.model.constraint,message:account_dashboard_banner.constraint_account_dashboard_banner_cell_warn_lock_date_days_positive
+msgid "Warn if lock date is older than N days must be positive or null."
+msgstr ""
+"Кількість днів для попередження про застарілу дату блокування має бути "
+"додатною або порожньою."

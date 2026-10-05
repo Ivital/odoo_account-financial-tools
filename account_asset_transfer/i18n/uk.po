@@ -238,3 +238,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
 msgid "Transfer asset from AUC to Asset"
 msgstr "Перенести актив з AUC до активу"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset__can_transfer
+msgid "Allow transfer AUC (running) to Asset"
+msgstr "Дозволити перенесення AUC (у роботі) в актив"
+
+#. module: account_asset_transfer
+#: model:ir.model,name:account_asset_transfer.model_account_asset_transfer_line
+msgid "Transfer To Asset"
+msgstr "Передати в актив"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset_transfer__date_transfer
+msgid "Transfer date must be after the asset journal entry"
+msgstr "Дата перенесення має бути після журнального запису активу"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset__is_transfer
+msgid ""
+"flag indicating if the asset has been transferred from/to another asset."
+msgstr "прапорець, що вказує, чи було актив передано з/до іншого активу."

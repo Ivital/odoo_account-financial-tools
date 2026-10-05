@@ -34,3 +34,16 @@ msgstr "Звичайний актив"
 #: model_terms:ir.ui.view,arch_db:account_asset_low_value.asset_low_value_remove_form
 msgid "Remove Asset"
 msgstr "Видалити актив"
+
+#. module: account_asset_low_value
+#: model:ir.model.fields,help:account_asset_low_value.field_account_asset__low_value
+msgid ""
+"Low-Value Asset (LVA) is true when the asset profile set\n"
+"1. Asset Account = Expense (low value asset)\n"
+"2. Number of Years = 0 years\n"
+"In essense, the low value asset is not really and asset but an expense tracked as asset, as such, it has no residual value. And when removed, only status is changed (no accounting entry)."
+msgstr ""
+"Малоцінний актив (LVA) має значення true, коли в профілі активу встановлено:\n"
+"1. Рахунок активу = Витрати (малоцінний актив)\n"
+"2. Кількість років = 0 років\n"
+"По суті, малоцінний актив фактично є не активом, а витратою, що відстежується як актив; тому він не має залишкової вартості. Під час видалення змінюється лише статус (без бухгалтерського запису)."

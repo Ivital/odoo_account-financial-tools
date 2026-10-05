@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.actions.server,name:account_fiscal_year_auto_create.cron_fiscal_year_auto_create_ir_actions_server
 msgid "Auto Create Fiscal Years"
 msgstr "Автоматично створювати фінансові роки"
+
+#. module: account_fiscal_year_auto_create
+#: model:ir.model,name:account_fiscal_year_auto_create.model_account_fiscal_year
+msgid "Fiscal Year"
+msgstr "Фінансовий рік"

@@ -35,3 +35,27 @@ msgstr "Послідовність проведень"
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__refund_sequence_id
 msgid "Credit Note Entry Sequence"
 msgstr "Послідовність записів кредит-нот"
+
+#. module: account_move_name_sequence
+#: model:ir.model.constraint,message:account_move_name_sequence.constraint_account_move_name_state_diagonal
+msgid ""
+"A move can not be posted with name \"/\" or empty value\n"
+"Check the journal sequence, please"
+msgstr ""
+"Проводку не можна провести з назвою «/» або порожнім значенням\n"
+"Перевірте послідовність журналу"
+
+#. module: account_move_name_sequence
+#: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__refund_sequence_id
+msgid ""
+"This sequence will be used to generate the journal entry number for refunds."
+msgstr ""
+"Ця послідовність використовуватиметься для генерування номера проводки для "
+"повернень коштів."
+
+#. module: account_move_name_sequence
+#: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__sequence_id
+msgid "This sequence will be used to generate the journal entry number."
+msgstr ""
+"Ця послідовність використовуватиметься для створення номера бухгалтерської "
+"проводки."

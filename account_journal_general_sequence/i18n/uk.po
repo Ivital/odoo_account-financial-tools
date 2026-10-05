@@ -111,3 +111,37 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
 msgid "Renumber account entry numbers"
 msgstr "Перенумерувати номери бухгалтерських записів"
+
+#. module: account_journal_general_sequence
+#: model:ir.model,name:account_journal_general_sequence.model_account_move_renumber_wizard
+msgid "Account move entry renumbering wizard"
+msgstr "Майстер перенумерації бухгалтерських записів"
+
+#. module: account_journal_general_sequence
+#: model:ir.model.constraint,message:account_journal_general_sequence.constraint_account_move_entry_number_unique
+msgid "Entry number must be unique per journal."
+msgstr "Номер запису має бути унікальним у межах журналу."
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_renumber_wizard__starting_date
+msgid "Renumber account moves starting this day."
+msgstr "Перенумерувати бухгалтерські записи, починаючи з цього дня."
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_renumber_wizard__starting_number
+msgid "Reset sequence to this number before starting."
+msgstr "Скинути послідовність до цього номера перед початком."
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_renumber_wizard__sequence_id
+msgid ""
+"Sequence to use for renumbering. Affects all journals that use this "
+"sequence."
+msgstr ""
+"Послідовність для перенумерації. Впливає на всі журнали, що використовують "
+"цю послідовність."
+
+#. module: account_journal_general_sequence
+#: model:ir.model.fields,help:account_journal_general_sequence.field_account_journal__entry_number_sequence_id
+msgid "Sequence used for account entry numbering."
+msgstr "Послідовність для нумерації бухгалтерських записів."
