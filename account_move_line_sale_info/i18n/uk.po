@@ -12,3 +12,13 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_account_move_line_sale_info
 msgid "Introduces the purchase order line to the journal items"
 msgstr "Додає зв’язок рядка замовлення на закупівлю з рядками журналу"
+
+#. module: account_move_line_sale_info
+#: model_terms:ir.ui.view,arch_db:account_move_line_sale_info.view_account_move_line_filter
+msgid "Sale Order"
+msgstr "Замовлення на продаж"
+
+#. module: account_move_line_sale_info
+#: model:ir.model.fields,field_description:account_move_line_sale_info.field_account_move_line__sale_order_id
+msgid "Sales Order"
+msgstr "Замовлення на продаж"

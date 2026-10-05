@@ -1,0 +1,236 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__account_id
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__all_posted
+msgid "All Posted"
+msgstr "Усе проведено"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__amount
+msgid "Amount"
+msgstr "Сума"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__company_id
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__company_id
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__company_id
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__create_uid
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__create_uid
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__create_uid
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__create_uid
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__create_date
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__create_date
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__create_date
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__create_date
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__spread_type__sale
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__spread_type__sale
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__spread_type__sale
+msgid "Customer"
+msgstr "Клієнт"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Details"
+msgstr "Деталі"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__display_name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__display_name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__display_name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+msgid "Invoice"
+msgstr "Рахунок-фактура"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__invoice_line_id
+msgid "Invoice Line"
+msgstr "Рядок рахунка-фактури"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__invoice_line_ids
+msgid "Invoice Lines"
+msgstr "Рядки рахунка-фактури"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__invoice_type
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__invoice_type
+msgid "Invoice Type"
+msgstr "Тип рахунка-фактури"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__invoice_line_id
+msgid "Invoice line"
+msgstr "Рядок рахунка-фактури"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__journal_id
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__spread_journal_id
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__name
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__period_type
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__period_type
+msgid "Period Type"
+msgstr "Тип періоду"
+
+#. module: account_spread_cost_revenue
+#. odoo-python
+#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__spread_id
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_search
+msgid "Spread"
+msgstr "Розподіл"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_move_line__spread_id
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_id
+msgid "Spread Board"
+msgstr "Дошка розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.actions.act_window,name:account_spread_cost_revenue.action_account_spread_form
+#: model:ir.ui.menu,name:account_spread_cost_revenue.menu_action_account_spread_form
+msgid "Spread Costs/Revenues"
+msgstr "Розподіл витрат/доходів"
+
+#. module: account_spread_cost_revenue
+#: model:ir.actions.act_window,name:account_spread_cost_revenue.action_account_spread_template_form
+#: model:ir.ui.menu,name:account_spread_cost_revenue.menu_action_account_spread_template_form
+msgid "Spread Templates"
+msgstr "Шаблони розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_type
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_type
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__spread_type
+msgid "Spread Type"
+msgstr "Тип розподілу"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_date
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__spread_type__purchase
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__spread_type__purchase
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__spread_type__purchase
+msgid "Supplier"
+msgstr "Постачальник"
+
+#. module: account_spread_cost_revenue
+#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
+msgid "Total"
+msgstr "Разом"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__total_amount
+msgid "Total Amount"
+msgstr "Загальна сума"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__invoice_type__in_invoice
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__invoice_type__in_invoice
+msgid "Vendor Bill"
+msgstr "Рахунок постачальника"
+
+#. module: account_spread_cost_revenue
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__year
+#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__period_type__year
+msgid "Year"
+msgstr "Рік"

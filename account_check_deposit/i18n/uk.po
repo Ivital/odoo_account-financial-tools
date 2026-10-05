@@ -16,14 +16,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_check_deposit
 #: model:ir.actions.report,print_report_name:account_check_deposit.report_account_check_deposit
 msgid ""
-"'check_deposit-%s%s' % (object.name, object.state == 'draft' and '-draft' or "
-"'')"
+"'check_deposit-%s%s' % (object.name, object.state == 'draft' and '-draft' or"
+" '')"
 msgstr ""
 
 #. module: account_check_deposit
@@ -64,7 +63,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Дії"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__activity_exception_decoration
@@ -84,7 +83,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
 msgid "Amount"
-msgstr ""
+msgstr "Сума"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.account_check_deposit_view_form
@@ -105,7 +104,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__bank_journal_id
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.view_check_deposit_search
 msgid "Bank Account"
-msgstr ""
+msgstr "Банківський рахунок"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
@@ -156,12 +155,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_check_deposit.action_check_deposit_tree
 #: model:ir.ui.menu,name:account_check_deposit.menu_check_deposit_tree
 msgid "Checks Deposits"
-msgstr ""
+msgstr "Депозити чеків"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__create_uid
@@ -176,12 +175,12 @@ msgstr "Дата створення"
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
@@ -198,7 +197,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__deposit_date
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.view_check_deposit_search
 msgid "Deposit Date"
-msgstr ""
+msgstr "Дата депозиту"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__display_name
@@ -209,7 +208,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields.selection,name:account_check_deposit.selection__account_check_deposit__state__done
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.view_check_deposit_search
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #. module: account_check_deposit
 #: model:ir.model.fields.selection,name:account_check_deposit.selection__account_check_deposit__state__draft
@@ -220,7 +219,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Підписники"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_partner_ids
@@ -247,7 +246,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__id
@@ -257,7 +256,7 @@ msgstr "ID"
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,help:account_check_deposit.field_account_check_deposit__activity_exception_icon
@@ -291,7 +290,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Є підписником"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__move_id
@@ -316,7 +315,7 @@ msgstr "Останнє оновлення"
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__line_ids
 msgid "Lines"
-msgstr ""
+msgstr "Рядки"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
@@ -331,7 +330,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: account_check_deposit
 #. odoo-python
@@ -347,7 +346,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__name
 msgid "Name"
-msgstr ""
+msgstr "Назва"
 
 #. module: account_check_deposit
 #. odoo-python
@@ -398,12 +397,12 @@ msgstr ""
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.account_check_deposit_view_form
 msgid "Print"
-msgstr ""
+msgstr "Друк"
 
 #. module: account_check_deposit
 #: model_terms:ir.ui.view,arch_db:account_check_deposit.report_checkdeposit
 msgid "Reference"
-msgstr ""
+msgstr "Посилання"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__activity_user_id
@@ -413,7 +412,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__state
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,help:account_check_deposit.field_account_check_deposit__activity_state
@@ -436,7 +435,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_check_deposit/models/account_check_deposit.py:0
 msgid ""
-"The deposit '%s' is in valid state, so you must cancel it before deleting it."
+"The deposit '%s' is in valid state, so you must cancel it before deleting "
+"it."
 msgstr ""
 
 #. module: account_check_deposit
@@ -450,7 +450,7 @@ msgstr ""
 #. module: account_check_deposit
 #: model:ir.model.fields,field_description:account_check_deposit.field_account_check_deposit__total_amount
 msgid "Total Amount"
-msgstr ""
+msgstr "Загальна сума"
 
 #. module: account_check_deposit
 #: model:ir.model.fields,help:account_check_deposit.field_account_check_deposit__activity_exception_decoration

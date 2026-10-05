@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_move_template
 #: model:ir.model.fields,help:account_move_template.field_account_move_template_run__overwrite
@@ -44,7 +43,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__account_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__account_id
 msgid "Account"
-msgstr ""
+msgstr "Рахунок"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__opt_account_id
@@ -54,12 +53,12 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__amount
 msgid "Amount"
-msgstr ""
+msgstr "Сума"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_distribution
@@ -77,7 +76,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_search
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
@@ -90,7 +89,7 @@ msgstr "Скасувати"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__company_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__company_currency_id
@@ -107,7 +106,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_run_action
 #: model:ir.ui.menu,name:account_move_template.account_move_template_run_menu
 msgid "Create Entry from Template"
-msgstr ""
+msgstr "Створити запис із шаблону"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
@@ -135,18 +134,18 @@ msgstr "Дата створення"
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__move_line_type__cr
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line_run__move_line_type__cr
 msgid "Credit"
-msgstr ""
+msgstr "Кредит"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__date
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__move_line_type__dr
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line_run__move_line_type__dr
 msgid "Debit"
-msgstr ""
+msgstr "Дебет"
 
 #. module: account_move_template
 #. odoo-python
@@ -158,7 +157,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__move_line_type
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__move_line_type
 msgid "Direction"
-msgstr ""
+msgstr "Напрямок"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__display_name
@@ -183,7 +182,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__python_code
 msgid "Formula"
-msgstr ""
+msgstr "Формула"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -227,14 +226,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__is_refund
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__is_refund
 msgid "Is a refund?"
-msgstr ""
+msgstr "Є відшкодуванням?"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__journal_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__journal_id
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_search
 msgid "Journal"
-msgstr ""
+msgstr "Журнал"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template
@@ -245,7 +244,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_action
 #: model:ir.ui.menu,name:account_move_template.account_move_template_menu
 msgid "Journal Entry Templates"
-msgstr ""
+msgstr "Шаблони журнальних записів"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line
@@ -257,7 +256,8 @@ msgstr ""
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 msgid ""
 "Journal entry created from template <a href=# data-oe-"
-"model=account.move.template data-oe-id=%(template_id)d>%(template_name)s</a>."
+"model=account.move.template data-oe-"
+"id=%(template_id)d>%(template_name)s</a>."
 msgstr ""
 
 #. module: account_move_template
@@ -284,7 +284,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__name
 msgid "Label"
-msgstr ""
+msgstr "Мітка"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__write_uid
@@ -306,7 +306,7 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__line_ids
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__line_ids
 msgid "Lines"
-msgstr ""
+msgstr "Рядки"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__template_id
@@ -317,7 +317,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__name
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__name
 msgid "Name"
-msgstr ""
+msgstr "Назва"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
@@ -328,7 +328,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__note
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__note
 msgid "Note"
-msgstr ""
+msgstr "Нотатка"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_line_id
@@ -344,7 +344,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__overwrite
 msgid "Overwrite"
-msgstr ""
+msgstr "Перезаписувати"
 
 #. module: account_move_template
 #. odoo-python
@@ -356,7 +356,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__partner_id
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Партнер"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__payment_term_id
@@ -374,7 +374,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__ref
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__ref
 msgid "Reference"
-msgstr ""
+msgstr "Посилання"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__select_template
@@ -385,7 +385,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__sequence
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Послідовність"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__set_lines
@@ -395,7 +395,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__state
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_repartition_line_id
@@ -407,12 +407,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_ids
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__tax_ids
 msgid "Taxes"
-msgstr ""
+msgstr "Податки"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__template_id
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
 
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_line_sequence_template_uniq
@@ -453,7 +453,7 @@ msgstr ""
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__wizard_id
 msgid "Wizard"
-msgstr ""
+msgstr "Майстер"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line_run

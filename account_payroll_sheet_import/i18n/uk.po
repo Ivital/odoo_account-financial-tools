@@ -1,0 +1,119 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__account_id
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__company_id
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_missing_partner_wizard__create_uid
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__create_uid
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__create_uid
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_missing_partner_wizard__create_date
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__create_date
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__create_date
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields.selection,name:account_payroll_sheet_import.selection__payroll_import_mapping_line__move_type__credit
+msgid "Credit"
+msgstr "Кредит"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields.selection,name:account_payroll_sheet_import.selection__payroll_import_mapping_line__move_type__debit
+msgid "Debit"
+msgstr "Дебет"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_missing_partner_wizard__display_name
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__display_name
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__display_name
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_wizard__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_wizard__file
+msgid "Excel File"
+msgstr "Файл Excel"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_wizard__filename
+msgid "Filename"
+msgstr "Ім’я файлу"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__id_column
+msgid "ID Column"
+msgstr "Стовпець ID"
+
+#. module: account_payroll_sheet_import
+#: model_terms:ir.ui.view,arch_db:account_payroll_sheet_import.view_payroll_import_form
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: account_payroll_sheet_import
+#: model:ir.actions.act_window,name:account_payroll_sheet_import.action_payroll_import
+#: model:ir.ui.menu,name:account_payroll_sheet_import.menu_payroll_import
+#: model_terms:ir.ui.view,arch_db:account_payroll_sheet_import.view_payroll_import_form
+msgid "Import Payroll"
+msgstr "Імпорт зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping__journal_id
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_missing_partner_wizard__missing_ids
+msgid "Missing IDs"
+msgstr "Відсутні ID"
+
+#. module: account_payroll_sheet_import
+#: model:ir.model.fields,field_description:account_payroll_sheet_import.field_payroll_import_mapping_line__move_type
+msgid "Move Type"
+msgstr "Тип переміщення"
+
+#. module: account_payroll_sheet_import
+#: model:ir.ui.menu,name:account_payroll_sheet_import.menu_payroll_import_root
+msgid "Payroll Import"
+msgstr "Імпорт зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.actions.act_window,name:account_payroll_sheet_import.action_payroll_mapping
+#: model:ir.ui.menu,name:account_payroll_sheet_import.menu_payroll_mapping
+#: model:ir.ui.menu,name:account_payroll_sheet_import.menu_payroll_root
+msgid "Payroll Mapping"
+msgstr "Зіставлення зарплати"
+
+#. module: account_payroll_sheet_import
+#: model:ir.actions.act_window,name:account_payroll_sheet_import.action_payroll_mapping_line
+#: model:ir.ui.menu,name:account_payroll_sheet_import.menu_payroll_mapping_line
+msgid "Payroll Mapping Lines"
+msgstr "Рядки зіставлення зарплати"

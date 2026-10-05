@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
@@ -42,12 +41,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_increase_amount__account_id
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_post__account_id
 msgid "Account"
-msgstr ""
+msgstr "Рахунок"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_generate_wizard__date
 msgid "Account Date"
-msgstr ""
+msgstr "Дата обліку"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__long_term_loan_account_id
@@ -70,7 +69,7 @@ msgstr ""
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
 msgid "Accounts"
-msgstr ""
+msgstr "Рахунки"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_needaction
@@ -80,7 +79,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Дії"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_exception_decoration
@@ -153,7 +152,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_pay_amount__fees
 msgid "Bank fees"
-msgstr ""
+msgstr "Банківські комісії"
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_generate_wizard_form
@@ -166,12 +165,12 @@ msgstr "Скасувати"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_pay_amount__cancel_loan
 msgid "Cancel Loan"
-msgstr ""
+msgstr "Скасувати позику"
 
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__state__cancelled
 msgid "Cancelled"
-msgstr ""
+msgstr "Скасовано"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan_generate_wizard__date
@@ -183,13 +182,13 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__state__closed
 msgid "Closed"
-msgstr ""
+msgstr "Закрито"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__company_id
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__partner_id
@@ -233,7 +232,7 @@ msgstr "Дата створення"
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__currency_id
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_pay_amount__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__rate
@@ -245,7 +244,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__date
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_pay_amount__date
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan_line__date
@@ -285,7 +284,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__fixed_amount
 msgid "Fixed Amount"
-msgstr ""
+msgstr "Фіксована сума"
 
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__loan_type__fixed-annuity
@@ -315,7 +314,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Підписники"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_partner_ids
@@ -330,7 +329,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.ui.menu,name:account_loan.account_loan_generate_wizard_menu
 msgid "Generate Loan Entries"
-msgstr ""
+msgstr "Створити записи позики"
 
 #. module: account_loan
 #: model:ir.actions.act_window,name:account_loan.account_loan_generate_wizard_action
@@ -351,12 +350,12 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__has_moves
 msgid "Has Moves"
-msgstr ""
+msgstr "Має переміщення"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_res_partner__lended_loan_count
@@ -377,7 +376,7 @@ msgstr "ID"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__activity_exception_icon
@@ -423,7 +422,7 @@ msgstr ""
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
 msgid "Invoices"
-msgstr ""
+msgstr "Рахунки-фактури"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__post_invoice
@@ -433,13 +432,13 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Є підписником"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__is_leasing
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__is_leasing
 msgid "Is Leasing"
-msgstr ""
+msgstr "Є лізингом"
 
 #. module: account_loan
 #. odoo-python
@@ -453,7 +452,7 @@ msgstr ""
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
 msgid "Items"
-msgstr ""
+msgstr "Елементи"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__journal_id
@@ -461,7 +460,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__journal_id
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_post__journal_id
 msgid "Journal"
-msgstr ""
+msgstr "Журнал"
 
 #. module: account_loan
 #: model:ir.model,name:account_loan.model_account_move
@@ -471,7 +470,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__journal_type
 msgid "Journal Type"
-msgstr ""
+msgstr "Тип журналу"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__write_uid
@@ -512,7 +511,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_res_partner__lended_loan_ids
 #: model:ir.model.fields,field_description:account_loan.field_res_users__lended_loan_ids
 msgid "Lended Loan"
-msgstr ""
+msgstr "Надана позика"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_res_partner__lended_loan_count
@@ -524,12 +523,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__partner_id
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__partner_id
 msgid "Lender"
-msgstr ""
+msgstr "Кредитор"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__line_ids
 msgid "Line"
-msgstr ""
+msgstr "Рядок"
 
 #. module: account_loan
 #: model:ir.model,name:account_loan.model_account_loan
@@ -542,32 +541,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_payment__loan_id
 #: model_terms:ir.ui.view,arch_db:account_loan.view_account_loan_lines_search
 msgid "Loan"
-msgstr ""
+msgstr "Позика"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__loan_amount
 msgid "Loan Amount"
-msgstr ""
+msgstr "Сума позики"
 
 #. module: account_loan
 #: model:ir.actions.act_window,name:account_loan.account_loan_lines_action
 #: model:ir.ui.menu,name:account_loan.account_loan_lines_menu
 msgid "Loan Items"
-msgstr ""
+msgstr "Позичені позиції"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_bank_statement_line__loan_line_id
 #: model:ir.model.fields,field_description:account_loan.field_account_move__loan_line_id
 #: model:ir.model.fields,field_description:account_loan.field_account_payment__loan_line_id
 msgid "Loan Line"
-msgstr ""
+msgstr "Рядок позики"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__loan_type
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_generate_wizard__loan_type
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__loan_type
 msgid "Loan Type"
-msgstr ""
+msgstr "Тип позики"
 
 #. module: account_loan
 #: model:ir.model,name:account_loan.model_account_loan_generate_wizard
@@ -600,7 +599,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account_loan.account_loan_menu
 #: model:ir.ui.menu,name:account_loan.loan_menu
 msgid "Loans"
-msgstr ""
+msgstr "Позики"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__long_term_pending_principal_amount
@@ -626,7 +625,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__rate_type
@@ -643,17 +642,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__move_ids
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__move_ids
 msgid "Move"
-msgstr ""
+msgstr "Переміщення"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__move_count
 msgid "Move Count"
-msgstr ""
+msgstr "Кількість переміщень"
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
 msgid "Moves"
-msgstr ""
+msgstr "Переміщення"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__my_activity_date_deadline
@@ -664,7 +663,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__name
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__name
 msgid "Name"
-msgstr ""
+msgstr "Назва"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_date_deadline
@@ -771,7 +770,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__periods
 msgid "Periods"
-msgstr ""
+msgstr "Періоди"
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
@@ -791,7 +790,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__state__posted
 msgid "Posted"
-msgstr ""
+msgstr "Проведено"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__principal_amount
@@ -821,7 +820,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__rate
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__rate
 msgid "Rate"
-msgstr ""
+msgstr "Ставка"
 
 #. module: account_loan
 #. odoo-python
@@ -833,12 +832,12 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__rate_period
 msgid "Rate Period"
-msgstr ""
+msgstr "Період ставки"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__rate_type
 msgid "Rate Type"
-msgstr ""
+msgstr "Тип ставки"
 
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__rate_type__real
@@ -888,7 +887,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Послідовність"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__short_term_loan_account_id
@@ -945,7 +944,7 @@ msgstr ""
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "Дата початку"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__start_date
@@ -956,7 +955,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__state
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__loan_state
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__method_period
@@ -1012,7 +1011,7 @@ msgstr ""
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_line_tree
 msgid "Values"
-msgstr ""
+msgstr "Значення"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__website_message_ids
@@ -1050,6 +1049,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_line_tree
 msgid "principal_amount"
 msgstr ""
+
+#. module: account_loan
+#: model_terms:ir.ui.view,arch_db:account_loan.account_loan_tree
+msgid "Total"
+msgstr "Разом"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

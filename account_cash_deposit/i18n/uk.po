@@ -1,0 +1,255 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: account_cash_deposit
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.cash_unit_form
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__auto_create
+msgid "Auto Create"
+msgstr "Автостворення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__bank_journal_id
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Bank Account"
+msgstr "Банківський рахунок"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__cash_journal_id
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Cash Box"
+msgstr "Каса"
+
+#. module: account_cash_deposit
+#: model:ir.actions.act_window,name:account_cash_deposit.account_cash_deposit_action
+#: model:ir.ui.menu,name:account_cash_deposit.account_cash_deposit_menu
+msgid "Cash Deposits"
+msgstr "Касові депозити"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__order_id
+#: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__operation_type__order
+msgid "Cash Order"
+msgstr "Касове замовлення"
+
+#. module: account_cash_deposit
+#: model:ir.actions.act_window,name:account_cash_deposit.account_cash_order_action
+#: model:ir.ui.menu,name:account_cash_deposit.account_cash_order_menu
+msgid "Cash Orders"
+msgstr "Касові замовлення"
+
+#. module: account_cash_deposit
+#: model:ir.actions.act_window,name:account_cash_deposit.cash_unit_action
+#: model:ir.model,name:account_cash_deposit.model_cash_unit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__cash_unit_id
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
+msgid "Cash Unit"
+msgstr "Грошова одиниця"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_res_currency__cash_unit_ids
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.view_currency_form
+msgid "Cash Units"
+msgstr "Грошові одиниці"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__state__confirmed
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__create_uid
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__create_uid
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__create_uid
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__create_date
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__create_date
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__create_date
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_cash_deposit
+#: model:ir.model,name:account_cash_deposit.model_res_currency
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__currency_id
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__currency_id
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__currency_id
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__currency_id
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__date
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Date"
+msgstr "Дата"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__display_name
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__display_name
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__display_name
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__state__done
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "Done"
+msgstr "Готово"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__line_ids
+msgid "Lines"
+msgstr "Рядки"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__cash_type__note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__notes
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
+msgid "Notes"
+msgstr "Нотатки"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__auto_create__order
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__order_date
+msgid "Order Date"
+msgstr "Дата замовлення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__parent_id
+msgid "Parent"
+msgstr "Батьківський"
+
+#. module: account_cash_deposit
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
+msgid "Print"
+msgstr "Друк"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__qty
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__is_reconcile
+msgid "Reconciled"
+msgstr "Звірено"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__name
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: account_cash_deposit
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
+msgid "State"
+msgstr "Стан"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__state
+msgid "Status"
+msgstr "Статус"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__subtotal
+#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__total_amount
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__total_amount
+msgid "Total Amount"
+msgstr "Загальна сума"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__total_value
+msgid "Total Value"
+msgstr "Загальне значення"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__tree_order
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__tree_order
+msgid "Tree Order"
+msgstr "Порядок дерева"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__cash_type
+msgid "Type"
+msgstr "Тип"
+
+#. module: account_cash_deposit
+#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__value
+msgid "Value"
+msgstr "Значення"
